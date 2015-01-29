@@ -16,6 +16,6 @@
     "gulp": "*",
     "gulp-sass": "*",
     "node-bourbon": "*",
-    "node-neat": "*",
+    "node-neat": "*"
   }
 }
