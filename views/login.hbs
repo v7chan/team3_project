@@ -1,0 +1,38 @@
+{{#section 'head'}}
+  <link rel='stylesheet' href='/stylesheets/login.css' />
+{{/section}}
+
+<div class="container-fluid" id="main">
+  <div class="well">
+    <div class="row">
+      <div class="col-xs-12">
+        <h4 class="email">Email</h4>
+        <div class="input-group">
+          <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></span>
+          <input type="text" class="form-control" placeholder="awesome-student@ucsd.edu">
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <h4>Password</h4>
+        <div class="input-group">
+          <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span></span>
+          <input type="text" class="form-control">
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <button class="btn btn-warning col-xs-12" id="btn-login" type="submit">Login</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12 registration">
+      <p class="text-center">Don't have an account?</p>
+      <button class="btn btn-primary col-xs-12" type="submit" onclick="location.href='/auth/register';">Register</button>
+    </div>
+  </div>
+</div>

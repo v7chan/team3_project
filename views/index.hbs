@@ -1,88 +1,129 @@
 {{#section 'head'}}
-	<link rel='stylesheet' href='/stylesheets/index.css' />
+<link rel='stylesheet' href='/stylesheets/index.css' />
 {{/section}}
-
-<nav class="navbar navbar-default navbar-fixed-top">
-	<div class="container-fluid">
-		<!-- Brand and toggle get grouped for better mobile display -->
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-			<a class="navbar-brand" href="#">Welcome!</a>
-		</div>
-
-		<!-- Collect the nav links, forms, and other content for toggling -->
-		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#">Login</a></li>
-			</ul>
-		</div><!-- /.navbar-collapse -->
-	</div><!-- /.container-fluid -->
-</nav>
 
 <div class="container-fluid" id="main">
 	<div class="row">
 		<div class="col-xs-12 search-field">
-			<h3>Current Location</h3>
-			<div class="input-group input-group-lg">
+			<h4>Current Location</h4>
+			<div class="input-group">
 				<span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></span>
 				<input type="text" class="form-control" placeholder="Warren College" disabled>
 				<div class="input-group-btn">
-					<button class="btn btn-default" type="button">Change</span></button>
+					<button class="btn btn-default" type="button" data-toggle="collapse" href="#select-locations" aria-expanded="false" aria-controls="select-locations">
+						Change
+					</button>
 				</div>
 			</div>
 		</div>
 	</div>
 	<div class="row">
+		<div class="col-xs-12">
+			<div class="collapse" id="select-locations">
+				<ul class="list-group">
+					<li class="list-group-item"><a href="#">Warren College</a></li>
+					<li class="list-group-item"><a href="#">Marshall College</a></li>
+					<li class="list-group-item"><a href="#">Muir College</a></li>
+					<li class="list-group-item"><a href="#">ERC College</a></li>
+					<li class="list-group-item"><a href="#">Revelle College</a></li>
+					<li class="list-group-item"><a href="#">Sixth College</a></li>
+					<li class="list-group-item"><a href="#">Price Center</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
 		<div class="col-xs-12 search-field">
-			<h3>Time to Eat</h3>
-			<div class="input-group input-group-lg">
+			<h4>Time to Eat</h4>
+			<div class="input-group">
 				<span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-time" aria-hidden="true"></span></span>
 				<input type="text" class="form-control" placeholder="15 minutes" disabled>
 				<div class="input-group-btn">
-					<button class="btn btn-default" type="button">Change</span></button>
+					<button class="btn btn-default" type="button" data-toggle="collapse" href="#select-time" aria-expanded="false" aria-controls="select-time">
+						Change
+					</button>
 				</div>
 			</div>
 		</div>
 	</div>
 	<div class="row">
+		<div class="col-xs-12">
+			<div class="collapse" id="select-time">
+				<ul class="list-group">
+					<li class="list-group-item"><a href="#">5 minutes</a></li>
+					<li class="list-group-item"><a href="#">10 minutes</a></li>
+					<li class="list-group-item"><a href="#">15 minutes</a></li>
+					<li class="list-group-item"><a href="#">30 minutes</a></li>
+					<li class="list-group-item"><a href="#">Unlimited</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
 		<div class="col-xs-12 search-field">
-			<h3>Dietary Goal</h3>
-			<div class="input-group input-group-lg">
+			<h4>Dietary Goal</h4>
+			<div class="input-group">
 				<span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span></span>
 				<input type="text" class="form-control" placeholder="Gain Lean Muscle" disabled>
 				<div class="input-group-btn">
-					<button class="btn btn-default" type="button">Change</span></button>
+					<button class="btn btn-default" type="button" data-toggle="collapse" href="#select-goal" aria-expanded="false" aria-controls="select-goal">
+						Change
+					</button>
 				</div>
 			</div>
 		</div>
 	</div>
 	<div class="row">
+		<div class="col-xs-12">
+			<div class="collapse" id="select-goal">
+				<ul class="list-group">
+					<li class="list-group-item"><a href="#">Lose Weight</a></li>
+					<li class="list-group-item"><a href="#">Gain Lean Muscle</a></li>
+					<li class="list-group-item"><a href="#">Gain Weight</a></li>
+					<li class="list-group-item"><a href="#">Maintain Weight</a></li>
+					<li class="list-group-item"><a href="#">Healthy</a></li>
+					<li class="list-group-item"><a href="#">None</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
 		<div class="col-xs-12 search-field">
-			<h3>Dietary Restrictions</h3>
-			<div class="input-group input-group-lg">
+			<h4>Dietary Restrictions</h4>
+			<div class="input-group">
 				<span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></span>
 				<input type="text" class="form-control" placeholder="None" disabled>
 				<div class="input-group-btn">
-					<button class="btn btn-default" type="button">Change</span></button>
+					<button class="btn btn-default" type="button" data-toggle="collapse" href="#select-restrictions" aria-expanded="false" aria-controls="select-restrictions">
+						Change
+					</button>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="row test">
-		<div class="col-xs-8">.col-xs-8</div>
-		<div class="col-xs-4">.col-xs-4</div>
+		<div class="row">
+		<div class="col-xs-12">
+			<div class="collapse" id="select-restrictions">
+				<ul class="list-group">
+					<li class="list-group-item"><a href="#">None</a></li>
+					<li class="list-group-item"><a href="#">Vegetarian</a></li>
+					<li class="list-group-item"><a href="#">Vegan</a></li>
+					<li class="list-group-item"><a href="#">Pescatarian</a></li>
+					<li class="list-group-item"><a href="#">Kosher</a></li>
+				</ul>
+			</div>
+		</div>
 	</div>
+
 	<div class="row">
 		<div class="col-xs-12 search-field">
 			<center>
 				<div class="btn-group">
-					<button class="btn btn-default btn-primary btn-lg dropdown-toggle" id="search-food" type="button" data-toggle="dropdown" aria-expanded="false">
-						FIND ME FOOD!
+					<button class="btn btn-default btn-primary btn-lg dropdown-toggle" id="search-food" type="button" data-toggle="dropdown" aria-expanded="false" onclick="location.href='/search/results';">
+						SEARCH FOR FOOD!
 					</button>
 				</div>
 			</center>

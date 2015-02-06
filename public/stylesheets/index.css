@@ -1,14 +1,10 @@
-h3 {
-  font-family: "bebasregular";
-  color: #2C3E50;
-  margin-bottom: 15px; }
+h4 {
+  color: #2C3E50; }
 
 .search-field {
   margin-bottom: 10px; }
 
 #search-food {
-  font-family: "bebasregular";
-  font-size: 24px;
   color: #ECF0F1;
   margin-top: 20px; }
 
