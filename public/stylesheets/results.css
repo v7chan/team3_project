@@ -9,3 +9,9 @@ ul {
 
 .label-icon {
   display: inline-block; }
+
+.label-row {
+  margin-bottom: 13px; }
+
+.list-group-item {
+  padding-left: 20px; }
