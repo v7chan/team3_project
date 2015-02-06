@@ -1,5 +1,8 @@
 .lead {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  .lead p {
+    margin-left: 10px;
+    margin-right: 10px; }
 
 img {
-  padding: 50px; }
+  padding: 25px 50px; }
