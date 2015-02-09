@@ -10,4 +10,8 @@ router.get('/search_page', function(req, res) {
   res.render('index', { title: "Team3 | TritonEATS!" });
 });
 
+router.get('/template', function(req, res) {
+  res.render('template', { title: "Team3 | TritonEATS!" });
+});
+
 module.exports = router;

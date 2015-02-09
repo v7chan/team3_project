@@ -1,0 +1,11 @@
+// Remember: in order to compile .scss aka "Sassy CSS" files like this,
+// go to the terminal within our main project directory and run the
+// command "gulp" which will automatically compile thie .scss file
+// and output a .css file into public/stylesheets/template.css
+
+// ..Keep gulp running if you are continually editing/saving changes
+// to this .scss file!
+
+.template-class {
+	text-align: center;
+}
