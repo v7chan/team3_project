@@ -1,5 +1,6 @@
 var express = require('express');
 var router = express.Router();
+var searchFields = require("../helpers/search_fields.json");
 
 /* GET home page. */
 router.get('/', function(req, res) {
@@ -7,7 +8,7 @@ router.get('/', function(req, res) {
 });
 
 router.get('/search_page', function(req, res) {
-  res.render('index', { title: "Team3 | TritonEATS!" });
+  res.render('index', searchFields);
 });
 
 router.get('/template', function(req, res) {

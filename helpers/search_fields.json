@@ -1,0 +1,60 @@
+{
+  "title": "Team3 | TritonEATS!", 
+  "fields": [
+    {
+      "name": "Current Location",
+      "icon": "glyphicon-globe",
+      "placeholder": "Warren College",
+      "id": "select-locations",
+      "options": [
+        "Warren College",
+        "Marshall College",
+        "Muir College",
+        "ERC College",
+        "Revelle College",
+        "Sixth College",
+        "Price Center"
+      ]
+    },
+    {
+      "name": "Time to Eat",
+      "icon": "glyphicon-time",
+      "placeholder": "15 minutes",
+      "id": "select-time",
+      "options": [
+        "5 minutes",
+        "10 minutes",
+        "15 minutes",
+        "30 minutes",
+        "Unlimited"
+      ]
+    },
+    {
+      "name": "Dietary Goal",
+      "icon": "glyphicon-flag",
+      "placeholder": "Gain Lean Muscle",
+      "id": "select-goal",
+      "options": [
+        "Lose Weight",
+        "Gain Lean Muscle",
+        "Gain Weight",
+        "Maintain Weight",
+        "Healthy",
+        "None"
+      ]
+    },
+    {
+      "name": "Dietary Restrictions",
+      "icon": "glyphicon-remove",
+      "placeholder": "None",
+      "id": "select-restrictions",
+      "options": [
+        "None",
+        "Vegetarian",
+        "Vegan",
+        "Pescetarian",
+        "Kosher"
+      ]
+    }
+  ]
+}

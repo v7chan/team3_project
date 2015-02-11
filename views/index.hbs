@@ -3,130 +3,47 @@
 {{/section}}
 
 <div class="container-fluid" id="main">
-	<div class="row">
-		<div class="col-xs-12 search-field">
-			<h4>Current Location</h4>
-			<div class="input-group">
-				<span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></span>
-				<input type="text" class="form-control" placeholder="Warren College" disabled>
-				<div class="input-group-btn">
-					<button class="btn btn-default" type="button" data-toggle="collapse" href="#select-locations" aria-expanded="false" aria-controls="select-locations">
-						Change
-					</button>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-xs-12">
-			<div class="collapse" id="select-locations">
-				<ul class="list-group">
-					<li class="list-group-item"><a href="#">Warren College</a></li>
-					<li class="list-group-item"><a href="#">Marshall College</a></li>
-					<li class="list-group-item"><a href="#">Muir College</a></li>
-					<li class="list-group-item"><a href="#">ERC College</a></li>
-					<li class="list-group-item"><a href="#">Revelle College</a></li>
-					<li class="list-group-item"><a href="#">Sixth College</a></li>
-					<li class="list-group-item"><a href="#">Price Center</a></li>
-				</ul>
-			</div>
-		</div>
-	</div>
-
-	<div class="row">
-		<div class="col-xs-12 search-field">
-			<h4>Time to Eat</h4>
-			<div class="input-group">
-				<span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-time" aria-hidden="true"></span></span>
-				<input type="text" class="form-control" placeholder="15 minutes" disabled>
-				<div class="input-group-btn">
-					<button class="btn btn-default" type="button" data-toggle="collapse" href="#select-time" aria-expanded="false" aria-controls="select-time">
-						Change
-					</button>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-xs-12">
-			<div class="collapse" id="select-time">
-				<ul class="list-group">
-					<li class="list-group-item"><a href="#">5 minutes</a></li>
-					<li class="list-group-item"><a href="#">10 minutes</a></li>
-					<li class="list-group-item"><a href="#">15 minutes</a></li>
-					<li class="list-group-item"><a href="#">30 minutes</a></li>
-					<li class="list-group-item"><a href="#">Unlimited</a></li>
-				</ul>
-			</div>
-		</div>
-	</div>
-
-	<div class="row">
-		<div class="col-xs-12 search-field">
-			<h4>Dietary Goal</h4>
-			<div class="input-group">
-				<span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span></span>
-				<input type="text" class="form-control" placeholder="Gain Lean Muscle" disabled>
-				<div class="input-group-btn">
-					<button class="btn btn-default" type="button" data-toggle="collapse" href="#select-goal" aria-expanded="false" aria-controls="select-goal">
-						Change
-					</button>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-xs-12">
-			<div class="collapse" id="select-goal">
-				<ul class="list-group">
-					<li class="list-group-item"><a href="#">Lose Weight</a></li>
-					<li class="list-group-item"><a href="#">Gain Lean Muscle</a></li>
-					<li class="list-group-item"><a href="#">Gain Weight</a></li>
-					<li class="list-group-item"><a href="#">Maintain Weight</a></li>
-					<li class="list-group-item"><a href="#">Healthy</a></li>
-					<li class="list-group-item"><a href="#">None</a></li>
-				</ul>
-			</div>
-		</div>
-	</div>
-
-	<div class="row">
-		<div class="col-xs-12 search-field">
-			<h4>Dietary Restrictions</h4>
-			<div class="input-group">
-				<span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></span>
-				<input type="text" class="form-control" placeholder="None" disabled>
-				<div class="input-group-btn">
-					<button class="btn btn-default" type="button" data-toggle="collapse" href="#select-restrictions" aria-expanded="false" aria-controls="select-restrictions">
-						Change
-					</button>
-				</div>
-			</div>
-		</div>
-	</div>
+	<form>
+		{{#each fields}}
 		<div class="row">
-		<div class="col-xs-12">
-			<div class="collapse" id="select-restrictions">
-				<ul class="list-group">
-					<li class="list-group-item"><a href="#">None</a></li>
-					<li class="list-group-item"><a href="#">Vegetarian</a></li>
-					<li class="list-group-item"><a href="#">Vegan</a></li>
-					<li class="list-group-item"><a href="#">Pescatarian</a></li>
-					<li class="list-group-item"><a href="#">Kosher</a></li>
-				</ul>
+			<div class="col-xs-12 search-field">
+				<div class="form-group">
+					<label for="{{id}}-field"><h4>{{name}}</h4></label>
+					<div class="input-group">
+						<span class="input-group-addon" id="basic-addon1"><span class="glyphicon {{icon}}" aria-hidden="true"></span></span>
+						<input type="text" class="form-control current-selection" id="{{id}}-current" placeholder="{{placeholder}}" disabled>
+						<div class="input-group-btn">
+							<button class="btn btn-default" type="button" data-toggle="collapse" href="#{{id}}" aria-expanded="false" aria-controls="{{id}}">
+								Change
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="collapse" id="{{id}}">
+				<div class="btn-group-vertical col-xs-12">
+					{{#each options}}
+					<button type="button" class="btn btn-default search-option">{{this}}</button>
+					{{/each}}
+				</div>
 			</div>
 		</div>
-	</div>
+		{{/each}}
 
-	<div class="row">
-		<div class="col-xs-12 search-field">
-			<center>
-				<div class="btn-group">
-					<button class="btn btn-default btn-primary btn-lg dropdown-toggle" id="search-food" type="button" data-toggle="dropdown" aria-expanded="false" onclick="location.href='/search/results';">
-						SEARCH FOR FOOD!
-					</button>
-				</div>
-			</center>
+		<div class="row">
+			<div class="col-xs-12 search-field">
+				<center>
+					<div class="btn-group">
+						<button type="submit" class="btn btn-primary btn-lg" id="search-food" data-toggle="dropdown" aria-expanded="false" onclick="location.href='/search/results';">
+							SEARCH FOR FOOD!
+						</button>
+					</div>
+				</center>
+			</div>
 		</div>
-	</div>
+	</form>
 </div>
+
+{{#section 'bodyscripts'}}
+<script src="javascripts/options_update.js"></script>
+{{/section}}
