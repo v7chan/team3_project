@@ -1,29 +1,7 @@
 .circular {
-	width: 300px;
-	height: 300px;
-	border-radius: 150px;
-	-webkit-border-radius: 150px;
-	-moz-border-radius: 150px;
-	background: url(http://holykaw.alltop.com/wp-content/uploads/2010/01/6090801-media_httpdefinitivet_aImaA.jpg) no-repeat;
-	}
-
-#results {
-  margin-top: 15px; }
-
-.result-label {
-  margin-right: 10px; }
-
-.label-icon {
-  display: inline-block; }
-
-.label-row {
-  margin-bottom: 13px; }
-
-.list-group-item {
-  padding-left: 20px; }
-
-#btn-changepw {
-  margin-top: 0px; }
-
-.save button {
-  margin-top: 15px; }
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  background: url(http://holykaw.alltop.com/wp-content/uploads/2010/01/6090801-media_httpdefinitivet_aImaA.jpg) no-repeat; }

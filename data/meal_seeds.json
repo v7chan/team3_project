@@ -1,0 +1,83 @@
+[
+	{
+		"name": "",
+		"restaurant": "",
+		"googleAddress": "",
+	  "cost": "",
+	  "waitTime": "",
+	  "college": "",
+	  "description": "",
+	  "goals": [
+      "Lose Weight",
+      "Gain Lean Muscle",
+      "Gain Weight",
+      "Maintain Weight",
+      "Healthy"
+    ],
+	  "restrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Pescetarian",
+      "Kosher",
+      "Gluten Free"
+    ],
+	  "nutrition": {
+      "ingredients": "",
+      "information": {}
+    }
+	},
+  {
+    "name": "Gardein Burger",
+    "restaurant": "Ocean View Terrace",
+    "googleAddress": "Oceanview Terrace Restaurant La Jolla, CA 92037",
+    "cost": 5.25,
+    "waitTime": 10,
+    "college": "Marshall College",
+    "description": "The ultimate beefless burger",
+    "goals": [
+      "Gain Lean Muscle",
+      "Maintain Weight",
+      "Healthy",
+      "None"
+    ],
+    "restrictions": [
+      "Vegetarian",
+      "Pescetarian",
+      "Kosher"
+    ],
+    "nutrition": {
+      "ingredients": "Vegan Patty, Standard Burger Setup (Sliced Tomatoes (Tomatoes), Green Leaf Crowns (Green Leaf Lettuce), Half Slices Red Onions (Red Onion)), Hamburger Bun",
+      "information": {
+        "Total Fat": "4.3g",
+        "Cholesterol": "0mg",
+        "Sodium": "971.4mg",
+        "Total Carb": "46.7g",
+        "Protein": "32.8g"
+      }
+    }
+  },
+  {
+    "name": "Meat Lovers Pizza",
+    "restaurant": "Ocean View Terrace",
+    "googleAddress": "Oceanview Terrace Restaurant La Jolla, CA 92037",
+    "cost": 2.64,
+    "waitTime": 10,
+    "college": "Marshall College",
+    "description": "Filled with pepperoni, sausage, and ham to satisfy the inner meat lover in you",
+    "goals": [
+      "Gain Weight"
+    ],
+    "restrictions": [
+    ],
+    "nutrition": {
+      "ingredients": "Part Skim Mozzarella Cheese, Pizza Sauce, Standard (Tomato Sauce, Crushed Tomatoes, Water, Salt, Organic Sugar, Oregano, Olive Oil Blend, Black Pepper, Garlic), Pizza Crust (Pizza Dough, Olive Oil Blend), Ham, Italian Sausage, Pepperoni, Pizza Oil (Olive Oil Blend, Garlic, Oregano)",
+      "information": {
+        "Total Fat": "18.9g",
+        "Cholesterol": "31.6mg",
+        "Sodium": "869.2mg",
+        "Total Carb": "42.3g",
+        "Protein": "19.3g"
+      }
+    }
+  }
+]
