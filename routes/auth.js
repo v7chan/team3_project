@@ -10,4 +10,8 @@ router.get('/register', function(req, res) {
   res.render('register', { title: "Team3 | TritonEATS!" });
 });
 
+router.get('/profile', function(req, res) {
+  res.render('profile', { title: "Team3 | TritonEATS!" });
+});
+
 module.exports = router;

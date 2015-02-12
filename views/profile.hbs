@@ -1,0 +1,140 @@
+{{#section 'head'}}
+  <link rel='stylesheet' href='/stylesheets/profile.css' />
+{{/section}}
+
+<div class="container-fluid" id="main">
+  <div class="well">
+    <center>
+      <div class ="row">
+        <h3 class="username">Bruce Wayne</h4>
+      <div>
+        <div class="circular">
+        </div>
+    </center>
+     <div class="row">
+      <div class="col-xs-12 search-field">
+        <h4>Email:</h4>
+        <div class="input-group">
+          <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></span>
+          <input type="text" class="form-control" placeholder="iamnotbatman@batcave.com" disabled>
+          <div class="input-group-btn">
+            <button class="btn btn-default" type="button" data-toggle="collapse" href="#" aria-expanded="false" aria-controls="select-goal">
+              Change
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 search-field">
+        <h4>Dietary Goal</h4>
+        <div class="input-group">
+          <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span></span>
+          <input type="text" class="form-control" placeholder="Gain Lean Muscle" disabled>
+          <div class="input-group-btn">
+            <button class="btn btn-default" type="button" data-toggle="collapse" href="#select-goal" aria-expanded="false" aria-controls="select-goal">
+              Change
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="collapse" id="select-goal">
+          <ul class="list-group">
+            <li class="list-group-item"><a href="#">Lose Weight</a></li>
+            <li class="list-group-item"><a href="#">Gain Lean Muscle</a></li>
+            <li class="list-group-item"><a href="#">Gain Weight</a></li>
+            <li class="list-group-item"><a href="#">Maintain Weight</a></li>
+            <li class="list-group-item"><a href="#">Healthy</a></li>
+            <li class="list-group-item"><a href="#">None</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 search-field">
+        <h4>Dietary Restrictions</h4>
+        <div class="input-group">
+          <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></span>
+          <input type="text" class="form-control" placeholder="None" disabled>
+          <div class="input-group-btn">
+            <button class="btn btn-default" type="button" data-toggle="collapse" href="#select-restrictions" aria-expanded="false" aria-controls="select-restrictions">
+              Change
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="collapse" id="select-restrictions">
+          <ul class="list-group">
+            <li class="list-group-item"><a href="#">None</a></li>
+            <li class="list-group-item"><a href="#">Vegetarian</a></li>
+            <li class="list-group-item"><a href="#">Vegan</a></li>
+            <li class="list-group-item"><a href="#">Pescatarian</a></li>
+            <li class="list-group-item"><a href="#">Kosher</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <h4>Favorites</h4>
+      </div>
+    </div>
+    <div id="results">
+    <ul class="list-group">
+      <li class="list-group-item">
+          <div class="result-field">
+            <h4>Super Healthy Salad</h4>
+            <p>@ Ocean View Terrace</p>
+            <div class="label-row">
+              <span class="label label-success result-label label-icon">
+                <span class="glyphicon glyphicon-usd" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-usd" aria-hidden="true"></span>
+              </span>
+              <span class="label label-danger result-label label-icon">
+                <span class="glyphicon glyphicon-hourglass" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-hourglass" aria-hidden="true"></span>
+              </span>
+              <span class="label label-warning result-label label-text">0.3 miles</span>
+              <a href="/search/results/detail"><span class="label label-info result-label label-text">Details</span></a>
+              <a href="/search/results/detail/map"><span class="label label-primary result-label label-text">Map</span></a>
+            </div>
+          </div>
+      </li>
+      <li class="list-group-item">
+        <div class="result-field">
+          <h4>Kale Cranberry Wrap</h4>
+          <p>@ Goody's Market</p>
+            <div class="label-row">
+              <span class="label label-success result-label label-icon">
+                <span class="glyphicon glyphicon-usd" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-usd" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-usd" aria-hidden="true"></span>
+              </span>
+              <span class="label label-danger result-label label-icon">
+                <span class="glyphicon glyphicon-hourglass" aria-hidden="true"></span>
+              </span>
+              <span class="label label-warning result-label label-text">0.1 miles</span>
+              <a href="/search/results/detail"><span class="label label-info result-label label-text">Details</span></a>
+              <a href="/search/results/detail/map"><span class="label label-primary result-label label-text">Map</span></a>
+            </div>
+        </div>
+      </li>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <button class="btn btn-warning col-xs-12" id="btn-changepw" type="submit">Change Password</button>
+      </div>
+    </div>
+    <div class="row">
+    <div class="col-xs-12 save">
+      <button class="btn btn-primary col-xs-12" type="submit">Save Changes</button>
+    </div>
+  </div>
+  </div>
+</div>
