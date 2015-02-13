@@ -1,5 +1,6 @@
 var express = require('express');
 var router = express.Router();
+var preferenceFields = require('../helpers/preference_fields.json');
 
 /* GET home page. */
 router.get('/login', function(req, res) {
@@ -11,7 +12,7 @@ router.get('/register', function(req, res) {
 });
 
 router.get('/profile', function(req, res) {
-  res.render('profile', { title: "Team3 | TritonEATS!" });
+  res.render('profile', preferenceFields);
 });
 
 module.exports = router;

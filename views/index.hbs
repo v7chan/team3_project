@@ -5,29 +5,7 @@
 <div class="container-fluid" id="main">
 	<form>
 		{{#each fields}}
-		<div class="row">
-			<div class="col-xs-12 search-field">
-				<div class="form-group">
-					<label for="{{id}}-field"><h4>{{name}}</h4></label>
-					<div class="input-group">
-						<span class="input-group-addon" id="basic-addon1"><span class="glyphicon {{icon}}" aria-hidden="true"></span></span>
-						<input type="text" class="form-control current-selection" id="{{id}}-current" placeholder="{{placeholder}}" disabled>
-						<div class="input-group-btn">
-							<button class="btn btn-default" type="button" data-toggle="collapse" href="#{{id}}" aria-expanded="false" aria-controls="{{id}}">
-								Change
-							</button>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="collapse" id="{{id}}">
-				<div class="btn-group-vertical col-xs-12">
-					{{#each options}}
-					<button type="button" class="btn btn-default search-option">{{this}}</button>
-					{{/each}}
-				</div>
-			</div>
-		</div>
+			{{> selector}}
 		{{/each}}
 
 		<div class="row">
