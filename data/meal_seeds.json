@@ -2,7 +2,7 @@
   {
     "name": "Gardein Burger",
     "restaurant": "Ocean View Terrace",
-    "googleAddress": "Oceanview Terrace Restaurant La Jolla, CA 92037",
+    "googleAddress": "Oceanview+Terrace+Restaurant,La+Jolla,CA+92037",
     "cost": 5.25,
     "waitTime": 10,
     "college": "Marshall College",
@@ -31,7 +31,7 @@
   {
     "name": "Meat Lovers Pizza",
     "restaurant": "Ocean View Terrace",
-    "googleAddress": "Oceanview Terrace Restaurant La Jolla, CA 92037",
+    "googleAddress": "Oceanview+Terrace+Restaurant,La+Jolla,CA+92037",
     "cost": 2.64,
     "waitTime": 10,
     "college": "Marshall College",
@@ -55,7 +55,7 @@
   {
     "name": "Pasta Pronto",
     "restaurant": "Ocean View Terrace",
-    "googleAddress": "Oceanview Terrace Restaurant La Jolla, CA 92037",
+    "googleAddress": "Oceanview+Terrace+Restaurant,La+Jolla,CA+92037",
     "cost": 5.95,
     "waitTime": 10,
     "college": "Marshall College",
@@ -85,7 +85,7 @@
   {
     "name": "Frijoles",
     "restaurant": "Ocean View Terrace",
-    "googleAddress": "Oceanview Terrace Restaurant La Jolla, CA 92037",
+    "googleAddress": "Oceanview+Terrace+Restaurant,La+Jolla,CA+92037",
     "cost": 1.75,
     "waitTime": 10,
     "college": "Marshall College",
@@ -115,7 +115,7 @@
   {
     "name": "Chicken Breast Sandwich",
     "restaurant": "Ocean View Terrace",
-    "googleAddress": "Oceanview Terrace Restaurant La Jolla, CA 92037",
+    "googleAddress": "Oceanview+Terrace+Restaurant,La+Jolla,CA+92037",
     "cost": 4.95,
     "waitTime": 10,
     "college": "Marshall College",
@@ -145,7 +145,7 @@
   {
     "name": "Vegetarian Pizza",
     "restaurant": "Ocean View Terrace",
-    "googleAddress": "Oceanview Terrace Restaurant La Jolla, CA 92037",
+    "googleAddress": "Oceanview+Terrace+Restaurant,La+Jolla,CA+92037",
     "cost": 2.64,
     "waitTime": 10,
     "college": "Marshall College",
@@ -176,7 +176,7 @@
   {
     "name": "Fried Chicken Fritters",
     "restaurant": "Ocean View Terrace",
-    "googleAddress": "Oceanview Terrace Restaurant La Jolla, CA 92037",
+    "googleAddress": "Oceanview+Terrace+Restaurant,La+Jolla,CA+92037",
     "cost": 4.95,
     "waitTime": 10,
     "college": "Marshall College",
@@ -198,6 +198,69 @@
         "Total Carb": "26.8g",
         "Dietary Fiber":"2.7g",
         "Protein": "25.5g"
+      }
+    }
+  },
+  {
+    "name": "Chipotle Black Bean Burger",
+    "restaurant": "Canyon Vista",
+    "googleAddress": "Canyon+Vista,La+Jolla,CA+92093",
+    "cost": 5.25,
+    "waitTime": 5,
+    "college": "Warren College",
+    "description": "Mesquite, tangy, and just the right amount of kick in your burger",
+    "goals": [
+      "Gain Lean Muscle",
+      "Maintain Weight",
+      "Healthy"
+    ],
+    "restrictions": [
+      "Vegetarian",
+      "Pescetarian",
+      "Kosher"
+    ],
+    "nutrition": {
+      "ingredients": "Black Bean Chipotle Patty, Standard Burger Setup (Sliced Tomatoes (Tomatoes), Green Leaf Crowns (Green Leaf Lettuce), Half Slices Red Onions (Red Onion)), Hamburger Bun",
+      "information": {
+        "Calories": "349",
+        "Calories from Fat":"63",
+        "Total Fat": "7g",
+        "Cholesterol": "0mg",
+        "Sodium": "966.5mg",
+        "Total Carb": "61.5g",
+        "Dietary Fiber":"10g",
+        "Protein": "14.7g"
+      }
+    }
+  },
+  {
+    "name": "Hummus Platter",
+    "restaurant": "Canyon Vista",
+    "googleAddress": "Canyon+Vista,La+Jolla,CA+92093",
+    "cost": 5.64,
+    "waitTime": 5,
+    "college": "Warren College",
+    "description": "If you're in the mood for Greek food, this is the dish to order",
+    "goals": [
+      "Gain Lean Muscle",
+      "Maintain Weight"
+    ],
+    "restrictions": [
+      "Vegetarian",
+      "Pescetarian",
+      "Kosher"
+    ],
+    "nutrition": {
+      "ingredients": "Baba Ganoush (Eggplant, Lemon Juice, Tahini Sesame Paste, Olive Oil Blend, Garlic, Parsley, Olive Oil Blend, Salt, White Pepper, Ground Cumin), Sliced Cucumbers (Cucumber), Tzatziki Sauce, Black Bean Hummus (Black Beans, Water, Garlic, Lemon, Salt, Black Pepper, Red Pepper, Ground Cumin), Spicy Buffalo Pita Chip (PITA BREAD, Salt, Hot Sauce, White Pepper, Sesame Seeds, Black Sesame Seeds), Red Bell Pepper, Carrots, Celery, Pitted Kalamata Olives, Lettuce, Whole Pepperoncini",
+      "information": {
+        "Calories": "405",
+        "Calories from Fat":"174",
+        "Total Fat": "19.3g",
+        "Cholesterol": "11.2mg",
+        "Sodium": "1871.9mg",
+        "Total Carb": "46.5g",
+        "Dietary Fiber":"8.8g",
+        "Protein": "13.2g"
       }
     }
   }

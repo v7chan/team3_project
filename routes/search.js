@@ -24,7 +24,14 @@ router.get('/results/detail', function(req, res) {
 });
 
 router.get('/results/detail/map', function(req, res) {
-  res.render('map_stub', { title: "Team3 | TritonEATS!" });
+  var id = req.query.id;
+  models.Meal
+    .findOne({ '_id': id})
+    .exec(display);
+
+  function display(err, meal) {
+    res.render('map_stub', { title: "Team3 | TritonEATS!", 'meal': meal });
+  }
 });
 
 module.exports = router;
