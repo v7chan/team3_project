@@ -8,7 +8,7 @@ router.get('/', function(req, res) {
 });
 
 router.get('/search_page', function(req, res) {
-  res.render('index', searchFields);
+  res.render('index', { title: "Team3 | TritonEATS!", 'fields': searchFields });
 });
 
 router.get('/template', function(req, res) {

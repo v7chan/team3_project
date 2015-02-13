@@ -1,0 +1,27 @@
+  {
+  	"name": "",
+  	"restaurant": "",
+  	"googleAddress": "",
+    "cost": "",
+    "waitTime": "",
+    "college": "",
+    "description": "",
+    "goals": [
+      "Lose Weight",
+      "Gain Lean Muscle",
+      "Gain Weight",
+      "Maintain Weight",
+      "Healthy"
+    ],
+    "restrictions": [
+      "Vegetarian",
+      "Vegan",
+      "Pescetarian",
+      "Kosher",
+      "Gluten Free"
+    ],
+    "nutrition": {
+      "ingredients": "",
+      "information": {}
+    }
+  },

@@ -12,7 +12,7 @@ router.get('/register', function(req, res) {
 });
 
 router.get('/profile', function(req, res) {
-  res.render('profile', preferenceFields);
+  res.render('profile', { title: "Team3 | TritonEATS!", 'fields': preferenceFields });
 });
 
 module.exports = router;

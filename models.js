@@ -2,7 +2,7 @@ var Mongoose = require('mongoose');
 
 var mealSchema = new Mongoose.Schema({
   name:             String,
-  restaurantName:   String,
+  restaurant:   String,
   googleAddress:    String,
   cost:             Number,
   waitTime:         Number,
@@ -12,7 +12,7 @@ var mealSchema = new Mongoose.Schema({
   restrictions:     [String],
   nutrition: {
     ingredients:    String,
-    information:    []
+    information:    Mongoose.Schema.Types.Mixed
   }
 });
 
