@@ -17,7 +17,7 @@ var models   = require('./models');
 // MAKE SURE TO CHANGE THE NAME FROM 'lab7' TO ... IN OTHER PROJECTS
 var local_database_name = 'team3';
 var local_database_uri  = 'mongodb://localhost/' + local_database_name
-var database_uri = process.env.MONGOLAB_URI || local_database_uri
+var database_uri = process.env.MONGOHQ_URL || local_database_uri
 mongoose.connect(database_uri);
 
 
