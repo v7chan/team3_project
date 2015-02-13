@@ -9,7 +9,6 @@ var mongoose = require('mongoose');
 var hbsHelpers = require('./helpers/hbs_helpers');
 
 var routes = require('./routes/index');
-var users = require('./routes/users');
 var auth = require('./routes/auth');
 var search = require('./routes/search');
 var template = require('./routes/template')

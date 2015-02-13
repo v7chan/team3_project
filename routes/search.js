@@ -19,7 +19,6 @@ router.get('/results/detail', function(req, res) {
     .exec(display);
 
   function display(err, meal) {
-    console.log(meal);
     res.render('detail_stub', { title: "Team3 | TritonEATS!", 'meal': meal });
   }
 });

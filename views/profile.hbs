@@ -29,32 +29,34 @@
     </div>
     <div id="results">
       <ul class="list-group">
+        {{#each meals}}
         <li class="list-group-item">
           <div class="result-field">
-            <h4>Gardein Burger</h4>
-            <p>@ Ocean View Terrace</p>
+            <h4>{{name}}</h4>
+            <p>@ {{restaurant}}</p>
             <div class="label-row">
-              <span class="label label-success result-label label-icon">$5.25</span>
-              <span class="label label-danger result-label label-icon">10 min.</span>
+              <span class="label label-success result-label label-icon">${{cost}}</span>
+              <span class="label label-danger result-label label-icon">{{waitTime}} min.</span>
               <span class="label label-warning result-label label-text">0.3 miles</span>
             </div>
             <div class="btn-group btn-group-justified">
-              <a class="btn btn-default" href="/search/results/detail?id=54dd5a54e66c8ea7af667a6a">Details</a>
+              <a class="btn btn-default" href="/search/results/detail?id={{_id}}">Details</a>
               <a class="btn btn-default" href="/search/results/detail/map">Map</a>
             </div>
           </div>
         </li>
+        {{/each}}
+
       </ul>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <button class="btn btn-warning col-xs-12" id="btn-changepw" type="submit">Change Password</button>
       </div>
-      <div class="row">
-        <div class="col-xs-12">
-          <button class="btn btn-warning col-xs-12" id="btn-changepw" type="submit">Change Password</button>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12 save">
-          <button class="btn btn-primary col-xs-12" type="submit">Save Changes</button>
-        </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 save">
+        <button class="btn btn-primary col-xs-12" type="submit">Save Changes</button>
       </div>
     </div>
   </div>
