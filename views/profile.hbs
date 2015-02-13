@@ -1,5 +1,6 @@
 {{#section 'head'}}
 <link rel='stylesheet' href='/stylesheets/profile.css' />
+<link rel='stylesheet' href='/stylesheets/results.css' />
 {{/section}}
 
 <div class="container-fluid" id="main">
@@ -27,28 +28,9 @@
         <h4>Favorites</h4>
       </div>
     </div>
-    <div id="results">
-      <ul class="list-group">
-        {{#each meals}}
-        <li class="list-group-item">
-          <div class="result-field">
-            <h4>{{name}}</h4>
-            <p>@ {{restaurant}}</p>
-            <div class="label-row">
-              <span class="label label-success result-label label-icon">${{cost}}</span>
-              <span class="label label-danger result-label label-icon">{{waitTime}} min.</span>
-              <span class="label label-warning result-label label-text">0.3 miles</span>
-            </div>
-            <div class="btn-group btn-group-justified">
-              <a class="btn btn-default" href="/search/results/detail?id={{_id}}">Details</a>
-              <a class="btn btn-default" href="/search/results/detail/map?id={{_id}}">Map</a>
-            </div>
-          </div>
-        </li>
-        {{/each}}
 
-      </ul>
-    </div>
+    {{> results_partial}}
+
     <div class="row">
       <div class="col-xs-12">
         <button class="btn btn-warning col-xs-12" id="btn-changepw" type="submit">Change Password</button>

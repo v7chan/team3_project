@@ -263,5 +263,64 @@
         "Protein": "13.2g"
       }
     }
+  },
+  {
+    "name": "Asian BBQ Pork Loin",
+    "restaurant": "The Bistro",
+    "googleAddress": "The+Bistro,La+Jolla,CA+92093",
+    "cost": 12.00,
+    "waitTime": 30,
+    "college": "The Village",
+    "description": "Your mouth will receive a kick of tangy flavor and achieve porky satisfaction",
+    "goals": [
+      "Gain Lean Muscle",
+      "Maintain Weight"
+    ],
+    "restrictions": [
+    ],
+    "nutrition": {
+      "ingredients": "Marinated Pork Loin (Pork Loin, Asian BBQ Sauce (Hoisin Sauce, Bbq Sauce , Cranberry Juice (12/cs, Pepsi), Soy Sauce, Pure Sesame Oil, Lemongrass Rub (Lemon Grass, Red Jalapenos, Ginger, Canola Oil, Cilantro, Salt), Cilantro)), Taro Potato (Taro, Potatoes, Coconut Milk, Salt, Unsalted Butter), Broccolini, Asian BBQ Sauce (Hoisin Sauce, Bbq Sauce , Cranberry Juice (12/cs, Pepsi), Soy Sauce, Pure Sesame Oil, Lemongrass Rub (Lemon Grass, Red Jalapenos, Ginger, Canola Oil, Cilantro, Salt), Cilantro), Soy Glaze (Soy Sauce, Hoisin Sauce, Garlic, Teriyaki Sauce, Sweet Chili Sauce, Rice Vinegar, Canola Oil, Mirin, Ginger)",
+      "information": {
+        "Calories": "627",
+        "Calories from Fat":"158",
+        "Total Fat": "17.5g",
+        "Cholesterol": "103.4mg",
+        "Sodium": "2352.1mg",
+        "Total Carb": "72.5g",
+        "Dietary Fiber":"8.1g",
+        "Protein": "42g"
+      }
+    }
+  },
+  {
+    "name": "Spicy Yellow Curry Seared Tofu",
+    "restaurant": "The Bistro",
+    "googleAddress": "The+Bistro,La+Jolla,CA+92093",
+    "cost": 9.00,
+    "waitTime": 30,
+    "college": "The Village",
+    "description": "Tofu has never tasted this good",
+    "goals": [
+      "Gain Lean Muscle",
+      "Maintain Weight"
+    ],
+    "restrictions": [
+      "Vegetarian",
+      "Pescetarian",
+      "Kosher"
+    ],
+    "nutrition": {
+      "ingredients": "Sauteed Veggies (Snow Peas, Red Bell Pepper, Carrots, Soy Sauce, Canola Oil), Steamed Brown Rice (Brown Rice), Marinated Tofu (Tofu, Tofu Sauce (Coconut Milk, Yellow Curry Paste)), Tofu Sauce (Coconut Milk, Yellow Curry Paste), Shitake Mushrooms, Thai Basil",
+      "information": {
+        "Calories": "376",
+        "Calories from Fat":"191",
+        "Total Fat": "21.1g",
+        "Cholesterol": "0mg",
+        "Sodium": "886.5mg",
+        "Total Carb": "32g",
+        "Dietary Fiber":"4.5g",
+        "Protein": "17.8g"
+      }
+    }
   }
 ]

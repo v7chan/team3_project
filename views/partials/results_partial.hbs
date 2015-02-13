@@ -1,0 +1,21 @@
+<div id="results">
+  <ul class="list-group">
+    {{#each meals}}
+    <li class="list-group-item">
+      <div class="result-field">
+        <h2 class="meal-name">{{name}}</h2>
+        <h4>@ {{restaurant}}</h4>
+        <div class="label-row">
+          <span class="label label-success result-label label-icon">${{cost}}</span>
+          <span class="label label-danger result-label label-icon">{{waitTime}} min.</span>
+          <span class="label label-warning result-label label-text">0.3 miles</span>
+        </div>
+        <div class="btn-group btn-group-justified more-info">
+          <a class="btn btn-default" href="/search/results/detail?id={{_id}}">Details</a>
+          <a class="btn btn-default" href="/search/results/detail/map?id={{_id}}">Map</a>
+        </div>
+      </div>
+    </li>
+    {{/each}}
+  </ul>
+</div>

@@ -2,6 +2,9 @@
   font-size: 45px;
   font-weight: bold; }
 
+.restaurant {
+  font-size: 28px; }
+
 .detail-row {
   text-align: center; }
 
@@ -20,6 +23,3 @@
 
 .cost {
   font-size: 30px; }
-
-.restaurant {
-  font-size: 28px; }

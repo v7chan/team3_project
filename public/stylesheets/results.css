@@ -14,15 +14,15 @@ ul {
   display: inline-block; }
 
 .label-row {
-  margin-bottom: 13px;
+  margin-bottom: 23px;
   font-size: 20px; }
 
 .list-group-item {
-  padding-left: 20px; }
+  margin-left: 20px; }
 
 .more-info {
-  padding-right: 5px;
-  padding-bottom: 15px; }
+  margin-right: 5px;
+  margin-bottom: 15px; }
 
 .meal-name {
   font-weight: bold; }
