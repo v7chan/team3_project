@@ -10,8 +10,7 @@
     "goals": [
       "Gain Lean Muscle",
       "Maintain Weight",
-      "Healthy",
-      "None"
+      "Healthy"
     ],
     "restrictions": [
       "Vegetarian",
@@ -50,6 +49,155 @@
         "Sodium": "869.2mg",
         "Total Carb": "42.3g",
         "Protein": "19.3g"
+      }
+    }
+  },
+  {
+    "name": "Pasta Pronto",
+    "restaurant": "Ocean View Terrace",
+    "googleAddress": "Oceanview Terrace Restaurant La Jolla, CA 92037",
+    "cost": 5.95,
+    "waitTime": 10,
+    "college": "Marshall College",
+    "description": "The perfect pasta entreé to get you taste buds excited",
+    "goals": [
+      "Gain Weight"
+    ],
+    "restrictions": [
+      "Vegetarian",
+      "Pescetarian",
+      "Kosher"
+    ],
+    "nutrition": {
+      "ingredients": "Penne Pasta (Penne Rigate), Alfredo Sauce (Manufacturing Cream, Parmesan Cheese, Flour, Margarine, White Pepper, Salt), Broccoli, Artichoke, Parmesan Cheese, Basil, Olive Oil Blend",
+      "information": {
+        "Calories": "624",
+        "Calories from Fat":"308",
+        "Total Fat": "34.1g",
+        "Cholesterol": "85.3mg",
+        "Sodium": "919.1mg",
+        "Total Carb": "54.5g",
+        "Dietary Fiber":"9.2g",
+        "Protein": "27g"
+      }
+    }
+  },
+  {
+    "name": "Frijoles",
+    "restaurant": "Ocean View Terrace",
+    "googleAddress": "Oceanview Terrace Restaurant La Jolla, CA 92037",
+    "cost": 1.75,
+    "waitTime": 10,
+    "college": "Marshall College",
+    "description": "Plain and simple beans for the soul",
+    "goals": [
+      "Maintain Weight"
+    ],
+    "restrictions": [
+      "Vegan",
+      "Pescetarian",
+      "Kosher"
+    ],
+    "nutrition": {
+      "ingredients": "Water, Refried Beans",
+      "information": {
+        "Calories": "179",
+        "Calories from Fat":"19",
+        "Total Fat": "2.1g",
+        "Cholesterol": "0mg",
+        "Sodium": "458.3mg",
+        "Total Carb": "31.8g",
+        "Dietary Fiber":"11g",
+        "Protein": "9.7g"
+      }
+    }
+  },
+  {
+    "name": "Chicken Breast Sandwich",
+    "restaurant": "Ocean View Terrace",
+    "googleAddress": "Oceanview Terrace Restaurant La Jolla, CA 92037",
+    "cost": 4.95,
+    "waitTime": 10,
+    "college": "Marshall College",
+    "description": "A lean, mean, chicken machine",
+    "goals": [
+      "Gain Lean Muscle",
+      "Maintain Weight",
+      "None"
+    ],
+    "restrictions": [
+      "Kosher"
+    ],
+    "nutrition": {
+      "ingredients": "Grilled Chicken Breast (Chicken Breast, Olive Oil Blend, Garlic, White Pepper, Salt), Standard Burger Setup (Sliced Tomatoes (Tomatoes), Green Leaf Crowns (Green Leaf Lettuce), Half Slices Red Onions (Red Onion)), Hamburger Bun",
+      "information": {
+        "Calories": "418",
+        "Calories from Fat":"114",
+        "Total Fat": "12.7g",
+        "Cholesterol": "84.3mg",
+        "Sodium": "599mg",
+        "Total Carb": "35.9g",
+        "Dietary Fiber":"2.4g",
+        "Protein": "37.8g"
+      }
+    }
+  },
+  {
+    "name": "Vegetarian Pizza",
+    "restaurant": "Ocean View Terrace",
+    "googleAddress": "Oceanview Terrace Restaurant La Jolla, CA 92037",
+    "cost": 2.64,
+    "waitTime": 10,
+    "college": "Marshall College",
+    "description": "The healthiest, most delicious pizza you'll ever try",
+    "goals": [
+      "Maintain Weight",
+      "Healthy"
+    ],
+    "restrictions": [
+      "Vegetarian",
+      "Pescetarian",
+      "Kosher"
+    ],
+    "nutrition": {
+      "ingredients": "Part Skim Mozzarella Cheese, Red Bell Pepper, Green Bell Pepper, Pizza Sauce, Standard (Tomato Sauce, Crushed Tomatoes, Water, Salt, Organic Sugar, Oregano, Olive Oil Blend, Black Pepper, Garlic), Pizza Crust (Pizza Dough, Olive Oil Blend), Sliced Olives, Onions, Sliced Mushroom, Pizza Oil (Olive Oil Blend, Garlic, Oregano)",
+      "information": {
+        "Calories": "349",
+        "Calories from Fat":"127",
+        "Total Fat": "14.1g",
+        "Cholesterol": "15.6mg",
+        "Sodium": "629.2mg",
+        "Total Carb": "45.7g",
+        "Dietary Fiber":"2.4g",
+        "Protein": "14.5g"
+      }
+    }
+  },
+  {
+    "name": "Fried Chicken Fritters",
+    "restaurant": "Ocean View Terrace",
+    "googleAddress": "Oceanview Terrace Restaurant La Jolla, CA 92037",
+    "cost": 4.95,
+    "waitTime": 10,
+    "college": "Marshall College",
+    "description": "If fried chicken is your guilty pleasure, look no more",
+    "goals": [
+      "Gain Weight"
+    ],
+    "restrictions": [
+      "Kosher"
+    ],
+    "nutrition": {
+      "ingredients": "Chicken, Soy Shortening",
+      "information": {
+        "Calories": "478",
+        "Calories from Fat":"274",
+        "Total Fat": "30.4g",
+        "Cholesterol": "53.3mg",
+        "Sodium": "997.7mg",
+        "Total Carb": "26.8g",
+        "Dietary Fiber":"2.7g",
+        "Protein": "25.5g"
       }
     }
   }
