@@ -9,7 +9,7 @@ router.get('/login', function(req, res) {
 });
 
 router.get('/register', function(req, res) {
-  res.render('register', { title: "Team3 | TritonEATS!" });
+    res.render('register', { title: "Team3 | TritonEATS!", 'fields': preferenceFields });
 });
 
 router.get('/profile', function(req, res) {

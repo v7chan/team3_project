@@ -35,62 +35,9 @@
       </div>
     </div>
 
-    <div class="row">
-      <div class="col-xs-12">
-        <h4>Dietary Goal</h4>
-        <div class="input-group">
-          <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span></span>
-          <input type="text" class="form-control" placeholder="Gain Lean Muscle" disabled>
-          <div class="input-group-btn">
-            <button class="btn btn-default" type="button" data-toggle="collapse" href="#select-goal" aria-expanded="false" aria-controls="select-goal">
-              Change
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-xs-12">
-        <div class="collapse" id="select-goal">
-          <ul class="list-group">
-            <li class="list-group-item"><a href="#">Lose Weight</a></li>
-            <li class="list-group-item"><a href="#">Gain Lean Muscle</a></li>
-            <li class="list-group-item"><a href="#">Gain Weight</a></li>
-            <li class="list-group-item"><a href="#">Maintain Weight</a></li>
-            <li class="list-group-item"><a href="#">Healthy</a></li>
-            <li class="list-group-item"><a href="#">None</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-xs-12 search-field">
-        <h4>Dietary Restrictions</h4>
-        <div class="input-group">
-          <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></span>
-          <input type="text" class="form-control" placeholder="None" disabled>
-          <div class="input-group-btn">
-            <button class="btn btn-default" type="button" data-toggle="collapse" href="#select-restrictions" aria-expanded="false" aria-controls="select-restrictions">
-              Change
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-xs-12">
-        <div class="collapse" id="select-restrictions">
-          <ul class="list-group">
-            <li class="list-group-item"><a href="#">None</a></li>
-            <li class="list-group-item"><a href="#">Vegetarian</a></li>
-            <li class="list-group-item"><a href="#">Vegan</a></li>
-            <li class="list-group-item"><a href="#">Pescatarian</a></li>
-            <li class="list-group-item"><a href="#">Kosher</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
+    {{#each fields}}
+    {{> selector}}
+    {{/each}}
 
     <div class="row">
       <div class="col-xs-12">
@@ -105,3 +52,7 @@
     </div>
   </div>
 </div>
+
+{{#section 'bodyscripts'}}
+<script src="../javascripts/options_update.js"></script>
+{{/section}}
