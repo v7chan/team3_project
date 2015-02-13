@@ -5,5 +5,9 @@ $(document).ready(function() {
 function listenForEvents() {
   $('.tooltip-hover').hover(function() {
     $('[data-toggle="tooltip"]').tooltip();
-  })
+  });
+
+  $('.tooltip-hover').click(function() {
+    $('[data-toggle="tooltip"]').tooltip();
+  });
 }
