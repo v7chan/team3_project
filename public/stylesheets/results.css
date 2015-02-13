@@ -4,17 +4,19 @@ ul {
 #results {
   margin-top: 15px; }
 
-.result-label {
-  margin-right: 10px; }
-
 .result-field {
   text-align: center; }
 
+.label-result {
+  margin-right: 15px; }
+
 .label-icon {
-  display: inline-block; }
+  display: inline-block;
+  font-size: 14px; }
 
 .label-row {
-  margin-bottom: 23px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   font-size: 20px; }
 
 .list-group-item {
@@ -25,4 +27,9 @@ ul {
   margin-bottom: 15px; }
 
 .meal-name {
-  font-weight: bold; }
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 13px; }
+
+.restaurant {
+  font-size: 20px; }

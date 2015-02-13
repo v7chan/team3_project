@@ -5,7 +5,7 @@ var models = require('../models');
 
 /* GET home page. */
 router.get('/login', function(req, res) {
-  res.render('login', { title: "Team3 | TritonEATS!" });
+    res.render('login', { title: "Team3 | TritonEATS!" });
 });
 
 router.get('/register', function(req, res) {

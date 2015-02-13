@@ -4,11 +4,11 @@
     <li class="list-group-item">
       <div class="result-field">
         <h2 class="meal-name">{{name}}</h2>
-        <h4>@ {{restaurant}}</h4>
+        <h4 class="restaurant">@ {{restaurant}}</h4>
         <div class="label-row">
-          <span class="label label-success result-label label-icon">${{cost}}</span>
-          <span class="label label-danger result-label label-icon">{{waitTime}} min.</span>
-          <span class="label label-warning result-label label-text">0.3 miles</span>
+          <button type="button" class="btn btn-success label-result label-icon tooltip-hover" data-toggle="tooltip" data-placement="bottom" title="Meal costs ${{cost}}">${{cost}}</button>
+          <button type="button" class="btn btn-danger label-result label-icon tooltip-hover" data-toggle="tooltip" data-placement="bottom" title="{{waitTime}} minute wait time">${{waitTime}}</button>
+          <button type="button" class="btn btn-warning label-icon tooltip-hover" data-toggle="tooltip" data-placement="bottom" title="0.3 miles away">0.3 miles</button>
         </div>
         <div class="btn-group btn-group-justified more-info">
           <a class="btn btn-default" href="/search/results/detail?id={{_id}}">Details</a>
