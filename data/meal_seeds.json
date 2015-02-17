@@ -5,7 +5,7 @@
     "googleAddress": "Oceanview+Terrace+Restaurant,La+Jolla,CA+92037",
     "cost": 5.25,
     "waitTime": 10,
-    "college": "Marshall College",
+    "location": "Marshall College",
     "description": "The ultimate beefless burger",
     "goals": [
       "Gain Lean Muscle",
@@ -34,7 +34,7 @@
     "googleAddress": "Oceanview+Terrace+Restaurant,La+Jolla,CA+92037",
     "cost": 2.64,
     "waitTime": 10,
-    "college": "Marshall College",
+    "location": "Marshall College",
     "description": "Filled with pepperoni, sausage, and ham to satisfy the inner meat lover in you",
     "goals": [
       "Gain Weight"
@@ -58,7 +58,7 @@
     "googleAddress": "Oceanview+Terrace+Restaurant,La+Jolla,CA+92037",
     "cost": 5.95,
     "waitTime": 10,
-    "college": "Marshall College",
+    "location": "Marshall College",
     "description": "The perfect pasta entreé to get you taste buds excited",
     "goals": [
       "Gain Weight"
@@ -88,7 +88,7 @@
     "googleAddress": "Oceanview+Terrace+Restaurant,La+Jolla,CA+92037",
     "cost": 1.75,
     "waitTime": 10,
-    "college": "Marshall College",
+    "location": "Marshall College",
     "description": "Plain and simple beans for the soul",
     "goals": [
       "Maintain Weight"
@@ -118,7 +118,7 @@
     "googleAddress": "Oceanview+Terrace+Restaurant,La+Jolla,CA+92037",
     "cost": 4.95,
     "waitTime": 10,
-    "college": "Marshall College",
+    "location": "Marshall College",
     "description": "A lean, mean, chicken machine",
     "goals": [
       "Gain Lean Muscle",
@@ -148,7 +148,7 @@
     "googleAddress": "Oceanview+Terrace+Restaurant,La+Jolla,CA+92037",
     "cost": 2.64,
     "waitTime": 10,
-    "college": "Marshall College",
+    "location": "Marshall College",
     "description": "The healthiest, most delicious pizza you'll ever try",
     "goals": [
       "Maintain Weight",
@@ -179,7 +179,7 @@
     "googleAddress": "Oceanview+Terrace+Restaurant,La+Jolla,CA+92037",
     "cost": 4.95,
     "waitTime": 10,
-    "college": "Marshall College",
+    "location": "Marshall College",
     "description": "If fried chicken is your guilty pleasure, look no more",
     "goals": [
       "Gain Weight"
@@ -207,7 +207,7 @@
     "googleAddress": "Canyon+Vista,La+Jolla,CA+92093",
     "cost": 5.25,
     "waitTime": 5,
-    "college": "Warren College",
+    "location": "Warren College",
     "description": "Mesquite, tangy, and just the right amount of kick in your burger",
     "goals": [
       "Gain Lean Muscle",
@@ -239,7 +239,7 @@
     "googleAddress": "Canyon+Vista,La+Jolla,CA+92093",
     "cost": 5.64,
     "waitTime": 5,
-    "college": "Warren College",
+    "location": "Warren College",
     "description": "If you're in the mood for Greek food, this is the dish to order",
     "goals": [
       "Gain Lean Muscle",
@@ -269,8 +269,8 @@
     "restaurant": "The Bistro",
     "googleAddress": "The+Bistro,La+Jolla,CA+92093",
     "cost": 12.00,
-    "waitTime": 30,
-    "college": "The Village",
+    "waitTime": 10,
+    "location": "The Village",
     "description": "Your mouth will receive a kick of tangy flavor and achieve porky satisfaction",
     "goals": [
       "Gain Lean Muscle",
@@ -298,7 +298,7 @@
     "googleAddress": "The+Bistro,La+Jolla,CA+92093",
     "cost": 9.00,
     "waitTime": 30,
-    "college": "The Village",
+    "location": "The Village",
     "description": "Tofu has never tasted this good",
     "goals": [
       "Gain Lean Muscle",

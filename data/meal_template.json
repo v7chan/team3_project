@@ -10,14 +10,12 @@
       "Lose Weight",
       "Gain Lean Muscle",
       "Gain Weight",
-      "Maintain Weight",
-      "Healthy"
+      "Maintain Weight"
     ],
     "restrictions": [
       "Vegetarian",
       "Vegan",
       "Pescetarian",
-      "Kosher",
       "Gluten Free"
     ],
     "nutrition": {

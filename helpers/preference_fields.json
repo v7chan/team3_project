@@ -9,7 +9,6 @@
       "Gain Lean Muscle",
       "Gain Weight",
       "Maintain Weight",
-      "Healthy",
       "None"
     ]
   },
@@ -23,7 +22,6 @@
       "Vegetarian",
       "Vegan",
       "Pescetarian",
-      "Kosher",
       "Gluten Free"
     ]
   }

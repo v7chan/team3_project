@@ -6,7 +6,7 @@ var mealSchema = new Mongoose.Schema({
   googleAddress:    String,
   cost:             Number,
   waitTime:         Number,
-  college:          String,
+  location:         String,
   description:      String,
   goals:            [String],
   restrictions:     [String],

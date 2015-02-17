@@ -1,6 +1,6 @@
 $(document).ready(function() {
   listenForEvents();
-})
+});
 
 function listenForEvents() {
   $('.search-option').click(function() {

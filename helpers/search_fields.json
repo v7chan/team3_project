@@ -11,7 +11,8 @@
       "ERC College",
       "Revelle College",
       "Sixth College",
-      "Price Center"
+      "Price Center",
+      "The Village"
     ]
   },
   {
@@ -37,7 +38,6 @@
       "Gain Lean Muscle",
       "Gain Weight",
       "Maintain Weight",
-      "Healthy",
       "None"
     ]
   },
@@ -51,7 +51,6 @@
       "Vegetarian",
       "Vegan",
       "Pescetarian",
-      "Kosher",
       "Gluten Free"
     ]
   }

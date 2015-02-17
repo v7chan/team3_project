@@ -3,8 +3,26 @@ var router = express.Router();
 var models = require('../models');
 
 router.get('/results', function(req, res) {
+  var location     = req.param('location');
+  var time         = req.param('time');
+  var goal         = req.param('goal');
+  var restrictions = req.param('restrictions');
+  var filterJSON = {'location': location};
+
+  if(time != 'Unlimited') {
+    filterJSON['waitTime'] = {$lte: time};
+  }
+
+  if(goal != 'None') {
+    filterJSON['goals'] = goal;
+  }
+
+  if(restrictions != 'None') {
+    filterJSON['restrictions'] = restrictions;
+  }
+
   models.Meal
-    .find()
+    .find(filterJSON)
     .exec(display);
 
   function display(err, meals) {
