@@ -16,42 +16,31 @@ ul {
 	margin-top: 15px;
 }
 
-.result-field {
-	text-align: center;
+h4.meal-name {
+	font-size: 20px;
+	margin-bottom: 5px;
+	color: #2C3E50;
 }
 
-.label-result {
-	margin-right: 15px;
-}
-
-.label-icon {
-	display: inline-block;
-	font-size: 14px;
+h5.restaurant {
+	margin-top: 0px;
 }
 
 .label-row {
-	margin-top: 20px;
-	margin-bottom: 20px;
-	font-size: 20px;
-}
+	margin-top: 10px;
+	margin-bottom: 10px;
 
-.list-group-item {
-	margin-left: 15x;
+	button {
+		margin-right: 10px;
+	}
+
+	.label-last {
+		margin-right: 0px;
+	}
 }
 
 .more-info {
-	margin-right: 5px;
-	margin-bottom: 15px;
-}
-
-.meal-name {
-	font-weight: bold;
-	margin-top: 15px;
-	margin-bottom: 13px;
-}
-
-.restaurant {
-	font-size: 20px;
+	margin-bottom: 10px;
 }
 
 .sort-button {

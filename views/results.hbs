@@ -3,55 +3,65 @@
 {{/section}}
 
 <div class="container-fluid" id="main">
- {{#if meals}}
-    <div class="row">
-      <div class="col-xs-8">
-        <h3>Your Food Awaits</h3>
-      </div>
+  {{#if meals}}
+  <div class="row">
+    <div class="col-xs-10">
+      <h3>Your Food Awaits</h3>
+    </div>
 
-      <div class="col-xs-4">
-        <div class="btn-group pull-right" id="sort-button">
-          <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-            Sort By <span class="caret"></span>
-          </button>
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Time</a></li>
-            <li><a href="#">Distance</a></li>
-            <li><a href="#">Cost</a></li>
-          </ul>
-        </div>
+    <div class="col-xs-2">
+      <div class="btn-group pull-right" id="sort-button">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+          Sort By <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" role="menu">
+          <li><a href="#">Time</a></li>
+          <li><a href="#">Distance</a></li>
+          <li><a href="#">Cost</a></li>
+        </ul>
       </div>
     </div>
-    <p id="back-text">Not what you were looking for? <a href='/search_page'>Refine your search!</a></p>
+  </div>
+  <p id="back-text">Not what you were looking for? <a href='/search_page'>Refine your search!</a></p>
 
-    <div id="results">
-      <ul class="list-group">
-        {{#each meals}}
-        <li class="list-group-item">
-          <div class="result-field">
-            <h2 class="meal-name">{{name}}</h2>
-            <h4 class="restaurant">@ {{restaurant}}</h4>
-            <div class="label-row">
-              <button type="button" class="btn btn-success label-result label-icon tooltip-hover" data-toggle="tooltip" data-placement="top" title="Meal costs ${{cost}}">${{cost}}</button>
-              <button type="button" class="btn btn-danger label-result label-icon tooltip-hover" data-toggle="tooltip" data-placement="top" title="{{waitTime}} minute wait time">{{waitTime}} min.</button>
-              <button type="button" class="btn btn-info label-icon tooltip-hover" data-toggle="tooltip" data-placement="top" title="0.3 miles away">0.3 miles</button>
-            </div>
-            <div class="btn-group btn-group-justified more-info">
-              <a class="btn btn-default" href="/search/results/detail?id={{_id}}">Details</a>
-              <a class="btn btn-default" href="/search/results/detail/map?id={{_id}}">Map</a>
-            </div>
+  <div id="results">
+    <ul class="list-group">
+      {{#each meals}}
+      <li class="list-group-item">
+        <div class="result-field">
+          <h4 class="meal-name">{{name}}</h4>
+          <h5 class="restaurant">@ {{restaurant}}</h5>
+          <div class="row label-row">
+            <center>
+              <button type="button" class="btn btn-xs btn-success tooltip-hover" data-toggle="tooltip" data-placement="top" title="Meal costs ${{cost}}">
+                $ {{cost}}
+              </button>
+              <button type="button" class="btn btn-xs btn-danger tooltip-hover" data-toggle="tooltip" data-placement="top" title="{{waitTime}} minute wait time">
+                <span class="glyphicon glyphicon-time"></span>
+                {{waitTime}} min.
+              </button>
+              <button type="button" class="btn btn-xs btn-info tooltip-hover label-last" data-toggle="tooltip" data-placement="top" title="0.3 miles away">
+                <span class="glyphicon glyphicon-map-marker"></span>
+                0.3 miles
+              </button>
+            </center>
           </div>
-        </li>
-        {{/each}}
-      </ul>
-    </div>
+          <div class="btn-group btn-group-justified more-info">
+            <a class="btn btn-default" href="/search/results/detail?id={{_id}}">Details</a>
+            <a class="btn btn-default" href="/search/results/detail/map?id={{_id}}">Map</a>
+          </div>
+        </div>
+      </li>
+      {{/each}}
+    </ul>
+  </div>
   {{else}}
-    <div>
-      <center>
-        <img src="/images/sad_kid.jpg" class="img-responsive" id="sad-kid">
-        <p><em>Sorry, we couldn't anything that fit your criteria (man, you're picky!). <a href='/search_page'>Click here to refine your search!</a></em></p>
-      </center>
-    </div>
+  <div>
+    <center>
+      <img src="/images/sad_kid.jpg" class="img-responsive" id="sad-kid">
+      <p><em>Sorry, we couldn't anything that fit your criteria (man, you're picky!). <a href='/search_page'>Click here to refine your search!</a></em></p>
+    </center>
+  </div>
   {{/if}}
 
 </div>
