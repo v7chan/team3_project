@@ -1,6 +1,5 @@
 $(document).ready(function() {
   listenForSearch();
-  scrollFullscreen();
 });
 
 function listenForSearch() {
@@ -15,10 +14,4 @@ function listenForSearch() {
     '&goal=' + goal +
     '&restrictions=' + restrictions;
   });
-}
-
-function scrollFullscreen() {
-  setTimeout(function () {
-    window.scrollTo(0, 1);
-  }, 1000);
 }
