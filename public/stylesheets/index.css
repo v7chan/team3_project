@@ -1,12 +1,11 @@
 h4 {
   color: #2C3E50; }
 
-.search-field {
-  margin-bottom: 10px; }
-
 #search-food {
   color: #ECF0F1;
-  margin-top: 20px; }
+  margin-top: 15px; }
+  #search-food .glyphicon-search {
+    margin-right: 5px; }
 
 .test .col-md-8 {
   padding-top: 10px;

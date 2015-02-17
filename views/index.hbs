@@ -4,22 +4,21 @@
 
 <div class="container-fluid" id="main">
 	<form>
-
 		{{#each fields}}
-			{{> selector_partial}}
+		{{> selector_partial}}
 		{{/each}}
 
 		<div class="row">
 			<div class="col-xs-12 search-field">
 				<center>
-					<div class="btn-group">
-						<button type="submit" class="btn btn-primary btn-lg" id="search-food" data-toggle="dropdown" aria-expanded="false">
-							SEARCH FOR FOOD!
-						</button>
-					</div>
-				</center>
-			</div>
+					<button type="submit" class="btn btn-primary btn-lg col-xs-12" id="search-food">
+						<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+						Find me food!
+					</button>
+				</div>
+			</center>
 		</div>
+
 	</form>
 </div>
 
