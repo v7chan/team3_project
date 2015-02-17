@@ -3,7 +3,8 @@ $(document).ready(function() {
 });
 
 function listenForSearch() {
-  $('#search-food').click(function() {
+  $('#search-food').click(function(e) {
+    e.preventDefault();
     var location     = $('#select-locations-current').attr('placeholder');
     var time         = $('#select-time-current').attr('placeholder').split(" ")[0];
     var goal         = $('#select-goal-current').attr('placeholder');
