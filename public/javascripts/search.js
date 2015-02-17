@@ -1,5 +1,6 @@
 $(document).ready(function() {
   listenForSearch();
+  scrollFullscreen();
 });
 
 function listenForSearch() {
@@ -10,8 +11,14 @@ function listenForSearch() {
     var restrictions = $('#select-restrictions-current').attr('placeholder');
 
     window.location.href = '/search/results?location=' + location + 
-      '&time=' + time +
-      '&goal=' + goal +
-      '&restrictions=' + restrictions;
+    '&time=' + time +
+    '&goal=' + goal +
+    '&restrictions=' + restrictions;
   });
+}
+
+function scrollFullscreen() {
+  setTimeout(function () {
+    window.scrollTo(0, 1);
+  }, 1000);
 }
