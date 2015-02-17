@@ -31,7 +31,37 @@
       </div>
     </div>
 
-    {{> results_partial}}
+    <div id="results">
+      <ul class="list-group">
+        {{#each meals}}
+        <li class="list-group-item">
+          <div class="result-field">
+            <h4 class="meal-name">{{name}}</h4>
+            <h5 class="restaurant">@ {{restaurant}}</h5>
+            <div class="row label-row">
+              <center>
+                <button type="button" class="btn btn-xs btn-success tooltip-hover" data-toggle="tooltip" data-placement="top" title="Meal costs ${{cost}}">
+                  $ {{cost}}
+                </button>
+                <button type="button" class="btn btn-xs btn-danger tooltip-hover" data-toggle="tooltip" data-placement="top" title="{{waitTime}} minute wait time">
+                  <span class="glyphicon glyphicon-time"></span>
+                  {{waitTime}} min.
+                </button>
+                <button type="button" class="btn btn-xs btn-info tooltip-hover label-last" data-toggle="tooltip" data-placement="top" title="0.3 miles away">
+                  <span class="glyphicon glyphicon-map-marker"></span>
+                  0.3 miles
+                </button>
+              </center>
+            </div>
+            <div class="btn-group btn-group-justified more-info">
+              <a class="btn btn-default" href="/search/results/detail?id={{_id}}">Details</a>
+              <a class="btn btn-default" href="/search/results/detail/map?id={{_id}}">Map</a>
+            </div>
+          </div>
+        </li>
+        {{/each}}
+      </ul>
+    </div>
 
     <div class="row">
       <div class="col-xs-12">
