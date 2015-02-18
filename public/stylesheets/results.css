@@ -4,7 +4,8 @@ h3 {
   margin-top: 6px; }
 
 #back-text {
-  margin-top: 5px; }
+  margin-top: 5px;
+  margin-bottom: 0px; }
 
 ul {
   list-style-type: none; }
@@ -14,19 +15,18 @@ ul {
 
 h4.meal-name {
   font-size: 20px;
-  margin-bottom: 5px;
-  color: #2C3E50; }
+  margin-bottom: 8px;
+  color: #D6430E; }
 
-h5.restaurant {
-  margin-top: 0px; }
+.restaurant-cost h5 {
+  margin-top: 0px;
+  margin-bottom: 5px; }
 
-.label-row {
-  margin-top: 10px;
+.extra-info {
+  color: #8C8C8C;
   margin-bottom: 10px; }
-  .label-row button {
-    margin-right: 10px; }
-  .label-row .label-last {
-    margin-right: 0px; }
+  .extra-info p {
+    margin-bottom: 0px; }
 
 .more-info {
   margin-bottom: 10px; }

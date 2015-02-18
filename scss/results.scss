@@ -6,6 +6,7 @@ h3 {
 
 #back-text {
 	margin-top: 5px;
+	margin-bottom: 0px;
 }
 
 ul {
@@ -18,24 +19,20 @@ ul {
 
 h4.meal-name {
 	font-size: 20px;
-	margin-bottom: 5px;
-	color: #2C3E50;
+	margin-bottom: 8px;
+	color: #D6430E;
 }
 
-h5.restaurant {
+.restaurant-cost h5 {
 	margin-top: 0px;
+	margin-bottom: 5px;
 }
 
-.label-row {
-	margin-top: 10px;
+.extra-info {
+	color: #8C8C8C;
 	margin-bottom: 10px;
-
-	button {
-		margin-right: 10px;
-	}
-
-	.label-last {
-		margin-right: 0px;
+	p {
+		margin-bottom: 0px;
 	}
 }
 
