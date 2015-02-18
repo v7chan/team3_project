@@ -1,7 +1,12 @@
 <div class="row">
 	<div class="col-xs-12 search-field">
 		<div class="form-group">
-			<label for="{{id}}-field"><h4>{{name}}</h4></label>
+			<div>
+				<label for="{{id}}-field"><h4>{{name}}</h4></label>
+				{{#equal name "Dietary Goal"}}
+				<a href="/help" id="help-goal">What's this?</a>
+				{{/equal}}
+			</div>
 			<div class="input-group">
 				<span class="input-group-addon" id="basic-addon1"><span class="glyphicon {{icon}}" aria-hidden="true"></span></span>
 				<input type="text" class="form-control current-selection" id="{{id}}-current" placeholder="{{placeholder}}" disabled>

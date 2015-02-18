@@ -8,7 +8,7 @@
   {{{_sections.head}}}
 </head>
 <body>
-  <nav class="navbar navbar-default navbar-fixed-top">
+  <nav class="navbar navbar-default">
     <div class="container-fluid">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -21,7 +21,8 @@
       </div>
       <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
         <button type="button" class="btn btn-warning navbar-btn" onclick="location.href='/auth/login';">Login</button>
-        <button type="button" class="btn btn-primary navbar-btn" onclick="location.href='/auth/register';">Register</button>
+        <button type="button" class="btn btn-primary navbar-btn" id="register" onclick="location.href='/auth/register';">Register</button>
+        <button type="button" class="btn btn-info navbar-btn" onclick="location.href='/help';">Help</button>
       </div>
     </div>
   </nav>

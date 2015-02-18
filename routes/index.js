@@ -15,4 +15,8 @@ router.get('/template', function(req, res) {
   res.render('template', { title: "Team3 | TritonEATS!" });
 });
 
+router.get('/help', function(req, res) {
+  res.render('help', { title: "Team3 | TritonEATS!" });
+});
+
 module.exports = router;
