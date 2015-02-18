@@ -1,5 +1,6 @@
 $(document).ready(function() {
   listenForSearch();
+  listenForModal();
 });
 
 function listenForSearch() {
@@ -14,5 +15,11 @@ function listenForSearch() {
     '&time=' + time +
     '&goal=' + goal +
     '&restrictions=' + restrictions;
+  });
+}
+
+function listenForModal() {
+  $('#modal').on('shown.bs.modal', function () {
+    $('#input').focus()
   });
 }

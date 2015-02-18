@@ -4,8 +4,27 @@
 			<div>
 				<label for="{{id}}-field"><h4>{{name}}</h4></label>
 				{{#equal name "Dietary Goal"}}
-				<a href="/help" id="help-goal">What's this?</a>
+				<a href="" id="help-goal" data-toggle="modal" data-target="#modal">What's this?</a>
 				{{/equal}}
+				<!-- Begin Modal -->
+				<div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="input" aria-hidden="true">
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				        <h4 class="modal-title" id="input">Help: Dietary Goal</h4>
+				      </div>
+				      <div class="modal-body">
+				        The "Dietary Goal" feature helps you choose and set your own personal nutritional goal from our five custom preset list: <i>Lose Weight, Gain Lean Muscle, Gain Weight, Maintain Weight, and None</i>. Choose a nutritional goal that best fits your personal needs and future goals. Choose wisely! </br></br>
+				        <a href="/help">Please tell me more...</a>
+				      </div>
+				      <div class="modal-footer">
+				        <button type="button" class="btn btn-info" data-dismiss="modal">Got it!</button>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+				<!-- End Modal -->
 			</div>
 			<div class="input-group">
 				<span class="input-group-addon" id="basic-addon1"><span class="glyphicon {{icon}}" aria-hidden="true"></span></span>

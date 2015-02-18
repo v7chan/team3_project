@@ -29,7 +29,7 @@
       {{#each meals}}
       <li class="list-group-item">
         <div class="result-field">
-          <h4 class="meal-name">{{name}}</h4>
+          <a href="/search/results/detail?id={{_id}}" style="text-decoration: none;"><h4 class="meal-name">{{name}}</h4></a>
           <div class="row restaurant-cost">
             <div class="col-xs-9">
               <h5 class="restaurant">@ {{restaurant}}</h5>
