@@ -1,5 +1,26 @@
 [
   {
+    "name": "Team3 Special Sandwich",
+    "restaurant": "Atkinson Hall",
+    "googleAddress": "Atkinson+Hall,+University+of+California+San+Diego,+Warren+College,+9500+Gilman+Dr,+La+Jolla,+CA+92093",
+    "cost": "4.99",
+    "waitTime": 10,
+    "college": "Warren College",
+    "description": "A delicious sandwich.",
+    "goals": [
+      "Gain Weight"
+    ],
+    "restrictions": [
+      "Gluten Free"
+    ],
+    "nutrition": {
+      "ingredients": "Awesomeness.",
+      "information": {
+        "Protein": "Over 9000 grams"
+      }
+    }
+  },
+  {
     "waitTime": 15, 
     "restrictions": [
       "Vegetarian", 

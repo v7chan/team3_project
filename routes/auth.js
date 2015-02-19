@@ -14,7 +14,7 @@ router.get('/register', function(req, res) {
 
 router.get('/profile', function(req, res) {
   models.Meal
-    .find({'name': 'Gardein Burger'})
+    .find({'name': 'Team3 Special Sandwich'})
     .exec(display);
 
   function display(err, meals) {

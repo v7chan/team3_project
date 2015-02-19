@@ -18,7 +18,7 @@
   {
     "name": "Time to Eat",
     "icon": "glyphicon-time",
-    "placeholder": "15 minutes",
+    "placeholder": "5 minutes",
     "id": "select-time",
     "options": [
       "5 minutes",
