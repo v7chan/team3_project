@@ -1,7 +1,8 @@
 .meal-name {
   color: #D6430E;
   font-size: 30px;
-  font-weight: bold; }
+  font-weight: bold;
+  margin-bottom: 20px; }
 
 .restaurant {
   font-size: 20px; }
@@ -23,10 +24,15 @@
   font-style: italic; }
 
 .cost {
-  font-size: 20px; }
+  font-size: 20px;
+  margin-right: 5px; }
 
 #back-button {
   margin-bottom: 10px; }
 
 span {
   margin-right: 5px; }
+
+.restaurant-cost h5 {
+  margin-top: 0px;
+  margin-bottom: 5px; }

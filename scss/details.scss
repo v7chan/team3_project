@@ -2,6 +2,7 @@
 	color: #D6430E;
 	font-size: 30px;
 	font-weight: bold;
+	margin-bottom: 20px;
 }
 
 .restaurant {
@@ -31,6 +32,7 @@
 
 .cost {
 	font-size: 20px;
+	margin-right: 5px
 }
 
 #back-button {
@@ -39,4 +41,9 @@
 
 span {
 	margin-right: 5px;
+}
+
+.restaurant-cost h5 {
+	margin-top: 0px;
+	margin-bottom: 5px;
 }
