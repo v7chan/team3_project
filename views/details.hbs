@@ -14,56 +14,45 @@
 		<div class="row detail-row">
 			<div class="col-xs-12">
 				<h1 class="meal-name">{{meal.name}}</h1>
-				<div class="media">
-					<div class="media-body">
-						<h3 class="media heading restaurant">{{meal.restaurant}}</h3>
-					</div>
-				</div>
-				<div class="media">
-					<div class="media-body">
-						<h4 class="media heading cost">${{meal.cost}}</h4>
-					</div>
-				</div>
-				<div class="media">
-					<div class="media-center">
-						<span class="glyphicon glyphicon-hourglass"></span>
-					</div>
-					<div class="media-body">
-						<h4 class="media heading">{{meal.waitTime}} minute wait time</h4>
-					</div>
-				</div>
-				<div class="media">
-					<div class="media-center">
-						<span class="glyphicon glyphicon-resize-horizontal"></span>
-					</div>
-					<div class="media-body">
-						<h4 class="media heading">0.3 miles away</h4>
-					</div>
-				</div>
+
+				<div class="row restaurant-cost">
+		            <div class="col-xs-9">
+		              <h5 class="media heading restaurant">@ {{meal.restaurant}}</h5>
+		            </div>
+		            <div class="col-xs-3">
+		              <h5 class="cost pull-right">0.3 mi</h5>
+		            </div>
+	          	</div>
+	          	<div class="row restaurant-cost">
+		            <div class="col-xs-9">
+		              <h5 class="media heading restaurant"><span class="glyphicon glyphicon-time"></span>{{meal.waitTime}} minutes</h4>
+		            </div>
+		            <div class="col-xs-3">
+		              <h5 class="cost pull-right">$ {{meal.cost}}</h5>
+		            </div>
+	          	</div>
+
 				<div class="media">
 					<div class="media-center">
-						<span class="glyphicon glyphicon-info-sign"></span>
+						<h4><span class="glyphicon glyphicon-info-sign"></span>Description</h4>
 					</div>
 					<div class="media-body">
-						<h4 class="media heading">Description</h4>
 						<p class="meal-description">{{meal.description}}</p>
 					</div>
 				</div>
 				<div class="media">
 					<div class="media-center">
-						<span class="glyphicon glyphicon-apple"></span>
+						<h4><span class="glyphicon glyphicon-apple"></span>Ingredients</h4>
 					</div>
 					<div class="media-body">
-						<h4 class="media heading">Ingredients</h4>
 						<p class="meal-description">{{meal.nutrition.ingredients}}</p>
 					</div>
 				</div>
 				<div class="media">
 					<div class="media-center">
-						<span class="glyphicon glyphicon-scale"></span>
+						<h4><span class="glyphicon glyphicon-scale"></span>Nutrition Facts</h4>
 					</div>
 					<div class="media-body">
-						<h4 class="media heading">Nutrition Facts</h4>
 						<table class="table table-hover nutrition-info">
 							{{#each meal.nutrition.information}}
 							<tr>

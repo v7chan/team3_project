@@ -1,27 +1,28 @@
 .meal-name {
-	font-size: 45px;
+	color: #D6430E;
+	font-size: 30px;
 	font-weight: bold;
 }
 
 .restaurant {
-	font-size: 28px;
+	font-size: 20px;
 }
 
 .detail-row {
-	text-align: center;
+	text-align: left;
 }
 
 .nutrition-info {
-	text-align: center;
+	text-align: left;
 	width: 95%;
 }
 
 .td-left {
-	text-align: center;
+	text-align: left;
 }
 
 .td-right {
-	text-align: center;
+	text-align: left;
 }
 
 .meal-description {
@@ -29,9 +30,13 @@
 }
 
 .cost {
-	font-size: 30px;
+	font-size: 20px;
 }
 
 #back-button {
 	margin-bottom: 10px;
+}
+
+span {
+	margin-right: 5px;
 }
