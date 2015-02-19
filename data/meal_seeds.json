@@ -3505,13 +3505,13 @@
     "restrictions": [], 
     "googleAddress": "Stewart+Commons,San+Diego,CA+92161", 
     "cost": "2.24", 
-    "name": "Egg,Sausage & Cheese Sandwich V4U", 
+    "name": "Egg, Sausage & Cheese Sandwich", 
     "goals": [
       "Gain Lean Muscle", 
       "Maintain Weight"
     ], 
     "restaurant": "Pines", 
-    "description": "After you try our Egg,Sausage & Cheese Sandwich V4U, we know you will be extremely satisfied!", 
+    "description": "After you try our Egg,Sausage & Cheese Sandwich, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
         "Sodium": "957.4mg", 
@@ -6812,13 +6812,13 @@
     "restrictions": [], 
     "googleAddress": "Canyon+Vista,La+Jolla,CA+92093", 
     "cost": "2.24", 
-    "name": "Egg,Sausage & Cheese Sandwich V4U", 
+    "name": "Egg, Sausage & Cheese Sandwich", 
     "goals": [
       "Gain Lean Muscle", 
       "Maintain Weight"
     ], 
     "restaurant": "Canyon Vista", 
-    "description": "After you try our Egg,Sausage & Cheese Sandwich V4U, we know you will be extremely satisfied!", 
+    "description": "After you try our Egg, Sausage & Cheese Sandwich, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
         "Sodium": "957.4mg", 
@@ -8735,7 +8735,7 @@
     "goals": [
       "Lose Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Belgian Waffles, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -8768,7 +8768,7 @@
     "goals": [
       "Gain Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Breakfast Burrito, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -8799,7 +8799,7 @@
       "Gain Lean Muscle", 
       "Maintain Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Breakfast Chilaquiles, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -8829,7 +8829,7 @@
     "goals": [
       "Gain Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Breakfast Quesadilla, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -8859,7 +8859,7 @@
     "goals": [
       "Gain Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Croissant Sausage Sandwich, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -8890,7 +8890,7 @@
       "Gain Lean Muscle", 
       "Lose Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Dietitian's Delight, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -8923,7 +8923,7 @@
       "Gain Lean Muscle", 
       "Lose Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Power Protein Bowl, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -8957,7 +8957,7 @@
       "Gain Lean Muscle", 
       "Maintain Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Steelcut Oatmeal, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -8987,7 +8987,7 @@
     "goals": [
       "Lose Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Cereal with Milk, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -9022,7 +9022,7 @@
     "goals": [
       "Lose Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Cut Fresh Fruit, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -9057,7 +9057,7 @@
     "goals": [
       "Lose Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Whole Apples, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -9092,7 +9092,7 @@
     "goals": [
       "Lose Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Whole Banana, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -9127,7 +9127,7 @@
     "goals": [
       "Lose Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Whole Orange, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -9160,7 +9160,7 @@
     "goals": [
       "Lose Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Yogurt Bar, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -9193,7 +9193,7 @@
     "goals": [
       "Lose Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Biscuit, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -9227,7 +9227,7 @@
     "goals": [
       "Lose Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Cage Free Scrambled Eggs, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -9262,7 +9262,7 @@
     "goals": [
       "Lose Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Country Potatoes, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -9292,7 +9292,7 @@
     "goals": [
       "Lose Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Fresh Tortillas, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -9327,7 +9327,7 @@
     "goals": [
       "Lose Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Frijoles, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -9359,7 +9359,7 @@
     "goals": [
       "Maintain Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Pork Sausage Links, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -9389,7 +9389,7 @@
     "goals": [
       "Lose Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Sausage Gravy, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -9422,7 +9422,7 @@
     "goals": [
       "Lose Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Scrambled Egg Whites, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -9454,7 +9454,7 @@
     "goals": [
       "Lose Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Smoked Bacon, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -9487,7 +9487,7 @@
     "goals": [
       "Lose Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Veggie Sausage, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -9513,13 +9513,13 @@
     "restrictions": [], 
     "googleAddress": "Caf\u00e9+Ventanas,La+Jolla,CA+92092", 
     "cost": "2.24", 
-    "name": "Egg,Sausage & Cheese Sandwich V4U", 
+    "name": "Egg, Sausage & Cheese Sandwich", 
     "goals": [
       "Gain Lean Muscle", 
       "Maintain Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
-    "description": "After you try our Egg,Sausage & Cheese Sandwich V4U, we know you will be extremely satisfied!", 
+    "restaurant": "Cafe Ventanas", 
+    "description": "After you try our Egg, Sausage & Cheese Sandwich, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
         "Sodium": "957.4mg", 
@@ -9548,7 +9548,7 @@
     "goals": [
       "Maintain Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Fried Eggroll, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -9579,7 +9579,7 @@
       "Gain Lean Muscle", 
       "Maintain Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Pan Blasted Stir-fry, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -9612,7 +9612,7 @@
     "goals": [
       "Lose Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Sauteed Bok Choy w/ Mushrooms, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -9647,7 +9647,7 @@
     "goals": [
       "Lose Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Steamed Brown Rice, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -9682,7 +9682,7 @@
     "goals": [
       "Lose Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Steamed Rice, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -9713,7 +9713,7 @@
       "Gain Lean Muscle", 
       "Maintain Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Fresh Deli Station, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -9744,7 +9744,7 @@
       "Gain Lean Muscle", 
       "Maintain Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Cheeseburger, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -9777,7 +9777,7 @@
     "goals": [
       "Lose Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Chipotle Black Bean Burger, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -9807,7 +9807,7 @@
     "goals": [
       "Gain Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Double Burger, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -9837,7 +9837,7 @@
     "goals": [
       "Gain Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Double Cheeseburger, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -9868,7 +9868,7 @@
       "Gain Lean Muscle", 
       "Maintain Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Fried Chicken Fritters, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -9902,7 +9902,7 @@
       "Gain Lean Muscle", 
       "Lose Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Gardein Burger, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -9933,7 +9933,7 @@
       "Gain Lean Muscle", 
       "Maintain Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Grilled Turkey Burger, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -9964,7 +9964,7 @@
       "Gain Lean Muscle", 
       "Maintain Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Hamburger, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -9995,7 +9995,7 @@
       "Gain Lean Muscle", 
       "Maintain Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Herbed Chicken Sandwich, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -10025,7 +10025,7 @@
     "goals": [
       "Maintain Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Crispy French Fries, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -10058,7 +10058,7 @@
     "goals": [
       "Gain Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Crispy Onion Rings, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -10091,7 +10091,7 @@
     "goals": [
       "Lose Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Cheese Pizza, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -10122,7 +10122,7 @@
       "Gain Lean Muscle", 
       "Maintain Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Pepperoni Pizza, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -10152,7 +10152,7 @@
     "goals": [
       "Maintain Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Sausage & Mushroom Pizza, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -10180,7 +10180,7 @@
     "cost": "3.24", 
     "name": "Chicken Artichoke Florentine Soup", 
     "goals": [], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Chicken Artichoke Florentine Soup, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -10210,7 +10210,7 @@
     "goals": [
       "Lose Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our French Onion Soup, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -10244,7 +10244,7 @@
     "goals": [
       "Lose Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Red Beans and Rice Soup, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -10276,7 +10276,7 @@
     "goals": [
       "Lose Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Turkey with Rice Soup, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -10306,7 +10306,7 @@
     "goals": [
       "Lose Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Fresh Salad Bar, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -10339,7 +10339,7 @@
     "goals": [
       "Lose Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Bowtie Pasta, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -10372,7 +10372,7 @@
     "goals": [
       "Lose Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Penne Pasta, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -10402,7 +10402,7 @@
     "goals": [
       "Lose Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Meatballs, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -10436,7 +10436,7 @@
       "Gain Lean Muscle", 
       "Maintain Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Grilled Cheese Sandwich, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -10466,7 +10466,7 @@
     "goals": [
       "Maintain Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Fried Eggroll, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -10497,7 +10497,7 @@
       "Gain Lean Muscle", 
       "Maintain Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Pan Blasted Stir-fry, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -10530,7 +10530,7 @@
     "goals": [
       "Lose Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Sauteed Bok Choy w/ Mushrooms, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -10565,7 +10565,7 @@
     "goals": [
       "Lose Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Steamed Brown Rice, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -10600,7 +10600,7 @@
     "goals": [
       "Lose Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Steamed Rice, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -10631,7 +10631,7 @@
       "Gain Lean Muscle", 
       "Maintain Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Cheeseburger, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -10664,7 +10664,7 @@
     "goals": [
       "Lose Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Chipotle Black Bean Burger, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -10694,7 +10694,7 @@
     "goals": [
       "Gain Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Double Burger, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -10724,7 +10724,7 @@
     "goals": [
       "Gain Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Double Cheeseburger, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -10755,7 +10755,7 @@
       "Gain Lean Muscle", 
       "Maintain Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Fried Chicken Fritters, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -10789,7 +10789,7 @@
       "Gain Lean Muscle", 
       "Lose Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Gardein Burger, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -10820,7 +10820,7 @@
       "Gain Lean Muscle", 
       "Maintain Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Grilled Turkey Burger, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -10851,7 +10851,7 @@
       "Gain Lean Muscle", 
       "Maintain Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Hamburger, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -10882,7 +10882,7 @@
       "Gain Lean Muscle", 
       "Maintain Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Herbed Chicken Sandwich, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -10912,7 +10912,7 @@
     "goals": [
       "Maintain Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Crispy French Fries, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -10945,7 +10945,7 @@
     "goals": [
       "Gain Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Crispy Onion Rings, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -10978,7 +10978,7 @@
     "goals": [
       "Lose Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Cheese Pizza, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -11009,7 +11009,7 @@
       "Gain Lean Muscle", 
       "Maintain Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Pepperoni Pizza, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -11039,7 +11039,7 @@
     "goals": [
       "Maintain Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Sausage & Mushroom Pizza, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -11067,7 +11067,7 @@
     "cost": "3.24", 
     "name": "Chicken Artichoke Florentine Soup", 
     "goals": [], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Chicken Artichoke Florentine Soup, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -11097,7 +11097,7 @@
     "goals": [
       "Lose Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our French Onion Soup, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -11131,7 +11131,7 @@
     "goals": [
       "Lose Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Red Beans and Rice Soup, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -11163,7 +11163,7 @@
     "goals": [
       "Lose Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Turkey with Rice Soup, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -11193,7 +11193,7 @@
     "goals": [
       "Lose Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Fresh Salad Bar, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -11226,7 +11226,7 @@
     "goals": [
       "Lose Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Bowtie Pasta, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -11259,7 +11259,7 @@
     "goals": [
       "Lose Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Penne Pasta, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -11289,7 +11289,7 @@
     "goals": [
       "Lose Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Meatballs, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
@@ -11323,7 +11323,7 @@
       "Gain Lean Muscle", 
       "Maintain Weight"
     ], 
-    "restaurant": "Caf&eacute; Ventanas", 
+    "restaurant": "Cafe Ventanas", 
     "description": "After you try our Grilled Cheese Sandwich, we know you will be extremely satisfied!", 
     "nutrition": {
       "information": {
