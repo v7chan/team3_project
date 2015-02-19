@@ -26,7 +26,7 @@ mongoose.connect(database_uri);
 // Step 1: load the JSON data
 var meals_json = require('./data/meal_seeds.json');
 
-// Step 2: Remove all existing documents
+// Step 2: Remove all existing MEALS
 models.Meal
   .find()
   .remove()

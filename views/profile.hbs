@@ -6,9 +6,6 @@
 <div class="container-fluid" id="main">
   <div class="well">
     <center>
-      <div class ="row">
-        <h3 class="username">Bruce Wayne</h3>
-      </div>
       <img class="img-responsive img-circle" id="profile-icon" src="/images/batman_profile_icon.jpg">
     </center>
     <div class="row">
@@ -16,7 +13,7 @@
         <h4>Email</h4>
         <div class="input-group email-field">
           <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></span>
-          <input type="text" class="form-control" value="iamnotbatman@batcave.com">
+          <input type="text" class="form-control" value="{{user.username}}">
         </div>
       </div>
     </div>
@@ -34,20 +31,28 @@
     <div id="results" class="placeholder-disabled">
       <ul class="list-group">
         {{#each meals}}
-          {{> list_results_partial}}
+        {{> list_results_partial}}
         {{/each}}
       </ul>
     </div>
 
     <div class="row">
       <div class="col-xs-12">
-        <button class="btn btn-warning col-xs-12" id="btn-changepw" type="submit">Change Password</button>
+        <button class="btn btn-warning col-xs-12" id="btn-changepw" type="submit" onclick="location.href='/coming_soon';">Change Password</button>
       </div>
     </div>
     <div class="row">
       <div class="col-xs-12 save">
-        <button class="btn btn-primary col-xs-12" type="submit">Save Changes</button>
+        <button class="btn btn-primary col-xs-12" type="submit" onclick="location.href='/coming_soon';">Save Changes</button>
       </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12">
+      <button class="btn btn-danger col-xs-12" id="back-button" onclick="goBack()">
+        Cancel
+      </button>
     </div>
   </div>
 </div>

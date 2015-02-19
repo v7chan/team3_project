@@ -18,6 +18,11 @@
     "node-bourbon": "*",
     "node-neat": "*",
     "mongodb": "*",
-    "mongoose": "*"
+    "mongoose": "*",
+    "passport": "*",
+    "passport-local": "*",
+    "express-session": "*",
+    "connect-flash": "*",
+    "bcrypt-nodejs": "*"
   }
 }

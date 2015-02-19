@@ -20,8 +20,13 @@
         <a class="navbar-brand" href="/">TritonEATS</a>
       </div>
       <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+      {{#if user}}
+        <button type="button" class="btn btn-warning navbar-btn" onclick="location.href='/auth/profile';">Profile</button>
+        <button type="button" class="btn btn-danger navbar-btn" id="register" onclick="location.href='/auth/signout';">Logout</button>
+      {{else}}
         <button type="button" class="btn btn-warning navbar-btn" onclick="location.href='/auth/login';">Login</button>
         <button type="button" class="btn btn-primary navbar-btn" id="register" onclick="location.href='/auth/register';">Register</button>
+      {{/if}}
         <button type="button" class="btn btn-info navbar-btn" onclick="location.href='/help';">Help</button>
       </div>
     </div>

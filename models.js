@@ -17,3 +17,12 @@ var mealSchema = new Mongoose.Schema({
 });
 
 exports.Meal = Mongoose.model('Meal', mealSchema);
+
+var userSchema = new Mongoose.Schema({
+  username:     String,
+  password:     String,
+  goal:         String,
+  restriction:  String
+});
+
+exports.User = Mongoose.model('User', userSchema);

@@ -1,32 +1,37 @@
 {{#section 'head'}}
-  <link rel='stylesheet' href='/stylesheets/login.css' />
+<link rel='stylesheet' href='/stylesheets/login.css' />
 {{/section}}
 
 <div class="container-fluid" id="main">
+  {{#if message}}
+    <div class="alert alert-danger" role="alert">{{message}}</div>
+  {{/if}}
   <div class="well">
-    <div class="row">
-      <div class="col-xs-12">
-        <h4 class="email">Email</h4>
-        <div class="input-group">
-          <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></span>
-          <input type="text" class="form-control" placeholder="awesome-student@ucsd.edu">
+    <form action="/auth/login" method="POST">
+      <div class="row">
+        <div class="col-xs-12">
+          <h4 class="email">Email</h4>
+          <div class="input-group">
+            <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></span>
+            <input type="email" name="username" class="form-control" placeholder="awesome-student@ucsd.edu" required>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-xs-12">
-        <h4>Password</h4>
-        <div class="input-group">
-          <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span></span>
-          <input type="text" class="form-control">
+      <div class="row">
+        <div class="col-xs-12">
+          <h4>Password</h4>
+          <div class="input-group">
+            <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span></span>
+            <input type="password" name="password" class="form-control" required>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-xs-12">
-        <button class="btn btn-warning col-xs-12" id="btn-login" type="submit" onclick="location.href='/auth/profile';">Login</button>
+      <div class="row">
+        <div class="col-xs-12">
+          <button class="btn btn-warning col-xs-12" id="btn-login" type="submit">Login</button>
+        </div>
       </div>
-    </div>
+    </form>
   </div>
 
   <div class="row">
