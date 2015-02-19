@@ -14,7 +14,7 @@
   },
   {
     "name": "Dietary Restrictions",
-    "icon": "glyphicon-remove",
+    "icon": "glyphicon-leaf",
     "placeholder": "None",
     "id": "select-restrictions",
     "options": [
