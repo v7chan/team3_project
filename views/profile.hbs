@@ -36,11 +36,55 @@
       </ul>
     </div>
 
+<!-- Button trigger modal -->
+
     <div class="row">
       <div class="col-xs-12">
-        <button class="btn btn-warning col-xs-12" id="btn-changepw" type="submit" onclick="location.href='/coming_soon';">Change Password</button>
+        <button class="btn btn-warning col-xs-12" id="btn-changepw"data-toggle="modal" data-target="#myModal">Change Password</button>
       </div>
     </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Change Password</h4>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-xs-12 search-field">
+                <h4>Old Password</h4>
+                <input type="text" class="form-control">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xs-12 search-field">
+                <h4>New Password</h4>
+                  <input type="text" class="form-control">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xs-12 search-field">
+                <h4>Confirm Password</h4>
+                  <input type="text" class="form-control">
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <div id='#close'>
+              <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+              <button type="button" class="btn btn-primary" onclick="location.href='/coming_soon';">Save Password</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--End of Modal-->
+        
     <div class="row">
       <div class="col-xs-12 save">
         <button class="btn btn-primary col-xs-12" type="submit" onclick="location.href='/coming_soon';">Save Changes</button>

@@ -18,3 +18,7 @@
 
 #back-button {
   margin-bottom: 20px; }
+
+/*ADDED TO STOP SCROLLING TO TOP*/
+#close {
+  display: none; }
