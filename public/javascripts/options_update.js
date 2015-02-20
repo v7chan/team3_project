@@ -1,8 +1,8 @@
 $(document).ready(function() {
-  listenForEvents();
+  listenForOptionEvents();
 });
 
-function listenForEvents() {
+function listenForOptionEvents() {
   $('.search-option').click(function() {
     var selected = $($(this)).text();
     console.log('Clicked: ' + selected);
