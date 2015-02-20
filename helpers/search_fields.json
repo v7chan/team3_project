@@ -31,7 +31,7 @@
   {
     "name": "Dietary Goal",
     "icon": "glyphicon-flag",
-    "placeholder": "None",
+    "placeholder": "Gain Lean Muscle",
     "id": "select-goal",
     "options": [
       "Lose Weight",

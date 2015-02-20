@@ -5,7 +5,6 @@
 				<label for="{{id}}-field"><h4>{{name}}</h4></label>
 				{{#equal name "Dietary Goal"}}
 				<a href="" id="help-goal" data-toggle="modal" data-target="#modal">What's this?</a>
-				{{/equal}}
 				<!-- Begin Modal -->
 				<div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="input" aria-hidden="true">
 				  <div class="modal-dialog">
@@ -25,6 +24,7 @@
 				  </div>
 				</div>
 				<!-- End Modal -->
+				{{/equal}}
 			</div>
 			<div class="input-group">
 				<span class="input-group-addon" id="basic-addon1"><span class="glyphicon {{icon}}" aria-hidden="true"></span></span>
