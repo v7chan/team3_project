@@ -48,9 +48,6 @@ module.exports = function(passport) {
       .find({'name': 'Team3 Special Sandwich'})
       .exec(display);
 
-    preferences[0].placeholder = req.user.goal;
-    preferences[1].placeholder = req.user.restriction;
-
     function display(err, meals) {
       res.render('profile', { title: "Team3 | TritonEATS!", 'meals': meals, 'fields': preferences, user: req.user });
     }

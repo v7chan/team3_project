@@ -5,7 +5,9 @@
 <div class="container-fluid" id="main">
 	<form>
 		{{#each fields}}
-		{{> selector_partial}}
+			{{#include parent=..}}
+				{{> selector_partial}}
+			{{/include}}
 		{{/each}}
 
 		<div class="row">
