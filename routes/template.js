@@ -5,7 +5,7 @@ var router = express.Router();
  * The code below displays http://localhost:3000/test/home
  */
 router.get('/search', function(req, res) {
-  res.render('index', { title: "Team3 | TritonEATS!", user: req.user });
+  res.render('index', { title: "Team3 | NUtriton!", user: req.user });
 });
 
 module.exports = router;
