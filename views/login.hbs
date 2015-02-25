@@ -4,7 +4,7 @@
 
 <div class="container-fluid" id="main">
   {{#if message}}
-    <div class="alert alert-danger" role="alert">{{message}}</div>
+  <div class="alert alert-danger" role="alert">{{message}}</div>
   {{/if}}
   <div class="well">
     <form action="/auth/login" method="POST">
@@ -35,9 +35,14 @@
   </div>
 
   <div class="row">
-    <div class="col-xs-12 registration">
+    <div class="col-xs-12 bottom-buttons register">
       <p class="text-center">Don't have an account?</p>
-      <button class="btn btn-primary col-xs-12" type="submit" onclick="location.href='/auth/register';">Register</button>
+      <button class="btn btn-primary col-xs-12" onclick="location.href='/auth/register';">Register</button>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 bottom-buttons last-button">
+      <button class="btn btn-default col-xs-12" onclick="location.href='/coming_soon';">Forgot Password</button>
     </div>
   </div>
 </div>

@@ -5,7 +5,6 @@
 				<label for="{{id}}-field"><h4>{{name}}</h4></label>
 				{{#equal name "Dietary Goal"}}
 				<a href="" id="help-goal" data-toggle="modal" data-target="#modal">What's this?</a>
-				{{/equal}}
 				<!-- Begin Modal -->
 				<div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="input" aria-hidden="true">
 				  <div class="modal-dialog">
@@ -25,10 +24,30 @@
 				  </div>
 				</div>
 				<!-- End Modal -->
+				{{/equal}}
 			</div>
 			<div class="input-group">
 				<span class="input-group-addon" id="basic-addon1"><span class="glyphicon {{icon}}" aria-hidden="true"></span></span>
-				<input type="text" class="form-control current-selection" id="{{id}}-current" placeholder="{{placeholder}}" disabled>
+				{{#equal name "Current Location"}}
+					<input type="text" class="form-control current-selection" id="{{id}}-current" placeholder="{{placeholder}}" disabled>
+				{{/equal}}
+				{{#equal name "Time to Eat"}}
+					<input type="text" class="form-control current-selection" id="{{id}}-current" placeholder="{{placeholder}}" disabled>
+				{{/equal}}
+				{{#equal name "Dietary Goal"}}
+					{{#if parent.user}}
+						<input type="text" class="form-control current-selection" id="{{id}}-current" placeholder="{{parent.user.goal}}" disabled>
+					{{else}}
+						<input type="text" class="form-control current-selection" id="{{id}}-current" placeholder="{{placeholder}}" disabled>
+					{{/if}}
+				{{/equal}}
+				{{#equal name "Dietary Restrictions"}}
+					{{#if parent.user}}
+						<input type="text" class="form-control current-selection" id="{{id}}-current" placeholder="{{parent.user.restriction}}" disabled>
+					{{else}}
+						<input type="text" class="form-control current-selection" id="{{id}}-current" placeholder="{{placeholder}}" disabled>
+					{{/if}}
+				{{/equal}}
 				<div class="input-group-btn">
 					<button class="btn btn-default" type="button" data-toggle="collapse" href="#{{id}}" aria-expanded="false" aria-controls="{{id}}">
 						Change

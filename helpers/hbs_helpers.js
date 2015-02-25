@@ -18,3 +18,25 @@ hbs.registerHelper('equal', function(lvalue, rvalue, options) {
         return options.fn(this);
     }
 });
+
+hbs.registerHelper("debug", function(optionalValue) {
+  console.log("Current Context");
+  console.log("====================");
+  console.log(this);
+ 
+  if (optionalValue) {
+    console.log("Value");
+    console.log("====================");
+    console.log(optionalValue);
+  }
+});
+
+hbs.registerHelper('include', function(options) {
+    var context = {},
+        mergeContext = function(obj) {
+            for(var k in obj)context[k]=obj[k];
+        };
+    mergeContext(this);
+    mergeContext(options.hash);
+    return options.fn(context);
+});

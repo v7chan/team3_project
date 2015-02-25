@@ -3,9 +3,14 @@
 {{/section}}
 
 <div class="container-fluid" id="main">
+  {{#if message}}
+    <div class="alert alert-success" role="alert">{{message}}</div>
+  {{/if}}
 	<form>
 		{{#each fields}}
-		{{> selector_partial}}
+			{{#include parent=..}}
+				{{> selector_partial}}
+			{{/include}}
 		{{/each}}
 
 		<div class="row">

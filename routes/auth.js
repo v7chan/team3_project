@@ -25,7 +25,7 @@ module.exports = function(passport) {
   router.post('/login', passport.authenticate('login', {
     successRedirect: '/search_page',
     failureRedirect: '/auth/login',
-    failureFlash : true
+    failureFlash: true
   }));
 
   router.get('/register', function(req, res) {
@@ -35,7 +35,8 @@ module.exports = function(passport) {
   router.post('/signup', passport.authenticate('signup', {
     successRedirect: '/search_page',
     failureRedirect: '/auth/register',
-    failureFlash : true
+    successFlash: 'Welcome! Your preferences are now saved.',
+    failureFlash: true
   }));
 
   router.get('/signout', function(req, res) {
@@ -47,9 +48,6 @@ module.exports = function(passport) {
     models.Meal
       .find({'name': 'Team3 Special Sandwich'})
       .exec(display);
-
-    preferences[0].placeholder = req.user.goal;
-    preferences[1].placeholder = req.user.restriction;
 
     function display(err, meals) {
       res.render('profile', { title: "Team3 | TritonEATS!", 'meals': meals, 'fields': preferences, user: req.user });
