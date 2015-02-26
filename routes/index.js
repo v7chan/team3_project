@@ -12,7 +12,7 @@ router.get('/', function(req, res) {
 });
 
 router.get('/search_page', function(req, res) {
-  res.render('index', { title: "Team3 | TritonEATS!", 'fields': searchFields, message: req.flash('success'), user: req.user });
+  res.render('index', { title: "Team3 | TritonEATS!", 'fields': searchFields, user: req.user });
 });
 
 router.get('/template', function(req, res) {

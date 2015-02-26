@@ -17,7 +17,7 @@
 				
 				<div class="row restaurant-cost">
 		            <div class="col-xs-8">
-		              <h5 class="media heading restaurant">@ {{meal.restaurant}}</h5>
+		              <a href="/search/results/detail/map?id={{meal._id}}"><h5 class="media heading restaurant" id="test">@ {{meal.restaurant}}</h5></a>
 		            </div>
 		            <div class="col-xs-4">
 		              <h5 class="cost pull-right">0.3 mi</h5>
@@ -25,7 +25,7 @@
 	          	</div>
 	          	<div class="row restaurant-cost">
 		            <div class="col-xs-8">
-		              <h5 class="media heading restaurant"><span class="glyphicon glyphicon-time"></span>{{meal.waitTime}} minutes</h4>
+		              <h5 class="media heading restaurant"><span class="glyphicon glyphicon-time"></span>{{meal.waitTime}} minutes</h5>
 		            </div>
 		            <div class="col-xs-4">
 		              <h5 class="cost pull-right">$ {{meal.cost}}</h5>

@@ -3,9 +3,6 @@
 {{/section}}
 
 <div class="container-fluid" id="main">
-  {{#if message}}
-    <div class="alert alert-success" role="alert">{{message}}</div>
-  {{/if}}
 	<form>
 		{{#each fields}}
 			{{#include parent=..}}
@@ -14,7 +11,7 @@
 		{{/each}}
 
 		<div class="row">
-			<div class="col-xs-12 search-field">
+			<div class="col-xs-12 search-field bottom-most-button">
 				<center>
 					<button type="submit" class="btn btn-primary btn-lg col-xs-12" id="search-food">
 						<span class="glyphicon glyphicon-search" aria-hidden="true"></span>

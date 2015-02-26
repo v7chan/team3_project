@@ -4,6 +4,9 @@
 {{/section}}
 
 <div class="container-fluid" id="main">
+  {{#if message}}
+    <div class="alert alert-success" role="alert">{{message}}</div>
+  {{/if}}
   <div class="well">
     <center>
       <img class="img-responsive img-circle" id="profile-icon" src="/images/batman_profile_icon.jpg">

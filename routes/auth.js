@@ -33,9 +33,9 @@ module.exports = function(passport) {
   });
 
   router.post('/signup', passport.authenticate('signup', {
-    successRedirect: '/search_page',
+    successRedirect: '/auth/profile',
     failureRedirect: '/auth/register',
-    successFlash: 'Welcome! Your preferences are now saved.',
+    successFlash: 'Welcome!',
     failureFlash: true
   }));
 
@@ -50,7 +50,7 @@ module.exports = function(passport) {
       .exec(display);
 
     function display(err, meals) {
-      res.render('profile', { title: "Team3 | TritonEATS!", 'meals': meals, 'fields': preferences, user: req.user });
+      res.render('profile', { title: "Team3 | TritonEATS!", 'meals': meals, 'fields': preferences, message: req.flash('success'), user: req.user });
     }
   });
 
