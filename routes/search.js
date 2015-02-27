@@ -30,6 +30,34 @@ router.get('/results', function(req, res) {
   }
 });
 
+router.get('/results_alt', function(req, res) {
+  var location     = req.param('location');
+  var time         = req.param('time');
+  var goal         = req.param('goal');
+  var restrictions = req.param('restrictions');
+  var filterJSON = {'location': location};
+
+  if(time != 'Unlimited') {
+    filterJSON['waitTime'] = {$lte: time};
+  }
+
+  if(goal != 'None') {
+    filterJSON['goals'] = goal;
+  }
+
+  if(restrictions != 'None') {
+    filterJSON['restrictions'] = restrictions;
+  }
+
+  models.Meal
+    .find(filterJSON)
+    .exec(display);
+
+  function display(err, meals) {
+    res.render('results_alt', { title: "Team3 | TritonEATS!", 'meals': meals, user: req.user });
+  }
+});
+
 router.get('/results/detail', function(req, res) {
   var id = req.query.id;
   models.Meal

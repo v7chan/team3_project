@@ -1,0 +1,47 @@
+{{#section 'head'}}
+<link rel='stylesheet' href='/stylesheets/results_alt.css' />
+{{/section}}
+
+<div class="container-fluid" id="main">
+  {{#if meals}}
+  <div class="row">
+    <div class="col-xs-12">
+      <button class="btn btn-primary col-xs-12" id="look-again" onclick="location.href='/search_page';">Look Again...</button>
+    </div>
+  </div>
+  <div class="row">
+    <div class="btn-group col-xs-12" id="sort-button">
+      <button class="btn btn-default col-xs-12" type="button" data-toggle="collapse" href="#sort-dropdown" aria-expanded="false" aria-controls="sort-dropdown">
+        Sort By: <span class="current-selection">None</span> <span class="caret"></span>
+      </button>
+    </div>
+    <div class="collapse" id="sort-dropdown">
+      <div class="btn-group-vertical col-xs-12">
+        <button type="button" class="btn btn-default search-option" onclick="location.href='/coming_soon';">Time</button>
+        <button type="button" class="btn btn-default search-option" onclick="location.href='/coming_soon';">Distance</button>
+        <button type="button" class="btn btn-default search-option" onclick="location.href='/coming_soon';">Cost</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="results">
+    <ul class="list-group">
+      {{#each meals}}
+      {{> list_results_partial_alt}}
+      {{/each}}
+    </ul>
+  </div>
+  {{else}}
+  <div id="sorry">
+    <center>
+      <img src="/images/sad_kid.jpg" class="img-responsive" id="sad-kid">    
+      <h4><em>Sorry, we couldn't anything that fit your criteria (man, you're picky!). <a href='/search_page'>Click here to refine your search!</a></em></h4>
+    </center>
+  </div>
+  {{/if}}
+
+</div>
+
+{{#section 'bodyscripts'}}
+<script src="../javascripts/results.js"></script>
+{{/section}}
