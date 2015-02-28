@@ -12,3 +12,10 @@ body {
 
 .bottom-most-button {
   margin-bottom: 50px; }
+
+.navbar-brand {
+  padding-top: 5px; }
+
+.navbar-brand img {
+  width: 150px;
+  padding: 0px; }
