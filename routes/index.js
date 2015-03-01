@@ -7,24 +7,24 @@ router.get('/', function(req, res) {
     res.redirect('/search_page');
   }
   else {
-    res.render('splash', { title: "Team3 | TritonEATS!", user: req.user });
+    res.render('splash', { title: "grubbery", user: req.user });
   }
 });
 
 router.get('/search_page', function(req, res) {
-  res.render('index', { title: "Team3 | TritonEATS!", 'fields': searchFields, user: req.user });
+  res.render('index', { title: "grubbery", 'fields': searchFields, user: req.user });
 });
 
 router.get('/template', function(req, res) {
-  res.render('template', { title: "Team3 | TritonEATS!", user: req.user });
+  res.render('template', { title: "grubbery", user: req.user });
 });
 
 router.get('/help', function(req, res) {
-  res.render('help', { title: "Team3 | TritonEATS!", user: req.user });
+  res.render('help', { title: "grubbery", user: req.user });
 });
 
 router.get('/coming_soon', function(req, res) {
-  res.render('coming_soon', { title: "Team3 | TritonEATS!", user: req.user });
+  res.render('coming_soon', { title: "grubbery", user: req.user });
 });
 
 module.exports = router;

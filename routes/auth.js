@@ -19,7 +19,7 @@ preferences.push(fields[3]);
 
 module.exports = function(passport) {
   router.get('/login', function(req, res) {
-    res.render('login', { title: "Team3 | TritonEATS!", message: req.flash('message') });
+    res.render('login', { title: "grubbery", message: req.flash('message') });
   });
 
   router.post('/login', passport.authenticate('login', {
@@ -29,7 +29,7 @@ module.exports = function(passport) {
   }));
 
   router.get('/register', function(req, res) {
-    res.render('register', { title: "Team3 | TritonEATS!", 'fields': preferences, message: req.flash('message') });
+    res.render('register', { title: "grubbery", 'fields': preferences, message: req.flash('message') });
   });
 
   router.post('/signup', passport.authenticate('signup', {
@@ -46,11 +46,11 @@ module.exports = function(passport) {
 
   router.get('/profile', isAuthenticated, function(req, res) {
     models.Meal
-      .find({'name': 'Team3 Special Sandwich'})
+      .find({'name': 'grubbery Special Sandwich'})
       .exec(display);
 
     function display(err, meals) {
-      res.render('profile', { title: "Team3 | TritonEATS!", 'meals': meals, 'fields': preferences, message: req.flash('success'), user: req.user });
+      res.render('profile', { title: "grubbery", 'meals': meals, 'fields': preferences, message: req.flash('success'), user: req.user });
     }
   });
 

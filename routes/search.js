@@ -26,7 +26,7 @@ router.get('/results', function(req, res) {
     .exec(display);
 
   function display(err, meals) {
-    res.render('results', { title: "Team3 | TritonEATS!", 'meals': meals, user: req.user });
+    res.render('results', { title: "grubbery", 'meals': meals, user: req.user });
   }
 });
 
@@ -54,7 +54,7 @@ router.get('/results_alt', function(req, res) {
     .exec(display);
 
   function display(err, meals) {
-    res.render('results_alt', { title: "Team3 | TritonEATS!", 'meals': meals, user: req.user });
+    res.render('results_alt', { title: "grubbery", 'meals': meals, user: req.user });
   }
 });
 
@@ -65,7 +65,7 @@ router.get('/results/detail', function(req, res) {
     .exec(display);
 
   function display(err, meal) {
-    res.render('details', { title: "Team3 | TritonEATS!", 'meal': meal, user: req.user });
+    res.render('details', { title: "grubbery", 'meal': meal, user: req.user });
   }
 });
 
@@ -76,7 +76,7 @@ router.get('/results/detail/map', function(req, res) {
     .exec(display);
 
   function display(err, meal) {
-    res.render('map', { title: "Team3 | TritonEATS!", 'meal': meal, user: req.user });
+    res.render('map', { title: "grubbery", 'meal': meal, user: req.user });
   }
 });
 
