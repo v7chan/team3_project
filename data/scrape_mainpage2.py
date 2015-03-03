@@ -3,16 +3,15 @@
 import re
 import json
 import urllib2
-from scrape_subpage import eachpage
+from scrape_subpage2 import eachpage
 
 # Define dining hall URLs (re-initialize req-url and re-execute thie script to get results for each dining hall)
-erc = 'http://hdh.ucsd.edu/diningmenus/default.aspx?i=18'
-warren = 'http://hdh.ucsd.edu/diningmenus/default.aspx?i=24'
-sixth = 'http://hdh.ucsd.edu/diningmenus/default.aspx?i=11'
-marshall = 'http://hdh.ucsd.edu/diningmenus/default.aspx?i=05'
-muir = 'http://hdh.ucsd.edu/diningmenus/default.aspx?i=01'
-revelle = 'http://hdh.ucsd.edu/diningmenus/default.aspx?i=39'
-req_url = revelle
+revelle = 'http://hdh.ucsd.edu/diningmenus/default.aspx?i=64'
+village = 'http://hdh.ucsd.edu/diningmenus/default.aspx?i=27'
+muir = 'http://hdh.ucsd.edu/diningmenus/default.aspx?i=32'
+marshall = 'http://hdh.ucsd.edu/diningmenus/default.aspx?i=06'
+sixth = 'http://hdh.ucsd.edu/diningmenus/default.aspx?i=38'
+req_url = sixth
 
 # Get page source code acting as a web browser
 user_agent = 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_4; en-US) AppleWebKit/534.3 (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3'
@@ -22,7 +21,7 @@ html = urllib2.urlopen(req)
 
 # Define regular expression match strings
 dailyspecials_regex = re.compile(r'Daily\sSpecials')
-fullmenu_regex = re.compile(r'MenuListing\_displayDateFull')
+specialmenu_regex = re.compile(r'MenuListing\_displayDateSpecial')
 meal_regex = re.compile(r'(?<=\"\_blank\"\>)(.*?)(?=\&nbsp\;\&nbsp\;)')
 cost_regex = re.compile(r'(?<=\&nbsp\;\&nbsp\;\(\$)(.*?)(?=\)\<)')
 restaurant_regex = re.compile(r'(?<=\"HoursLocations_locationName\"\>)(.*?)(?=\<\/h2\>)')
@@ -36,21 +35,18 @@ dailyspecials_flag = 0
 
 # Define college aliases and Google address string associations in a dictionary
 app_location = {
-  "Eleanor Roosevelt College":"ERC College",
-  "Earl Warren College":"Warren College",
-  "The Matthews &amp; Sixth College Apartments complex": "Sixth College",
-  "Thurgood Marshall College":"Marshall College",
-  "Muir College":"Muir College",
-  "See map for location of service":"Revelle College"
+  "Revelle College":"Revelle College",
+  "The Strand at The Village East 858.822.4275":"The Village",
+  "Muir College, located below Pines":"Muir College",
+  "Thurgood Marshall Activity Center":"Marshall College",
+  "See map for location of service":"Sixth College"
 }
 app_address = {
-  "Revelle College":"64+Degrees,9500+Gilman+Drive,La+Jolla,CA+92093",
-  "Eleanor Roosevelt College":"Café+Ventanas,La+Jolla,CA+92092",
-  "Earl Warren College":"Canyon+Vista,La+Jolla,CA+92093",
-  "The Matthews &amp; Sixth College Apartments complex": "Foodworx,La+Jolla,CA+92093",
-  "Thurgood Marshall College":"Oceanview+Terrace+Restaurant,La+Jolla,CA+92037",
-  "Muir College":"Stewart+Commons,San+Diego,CA+92161",
-  "See map for location of service":"32.8747281,-117.2428477"
+  "Revelle College":"64+Degrees,La+Jolla,CA+92093",
+  "The Strand at The Village East 858.822.4275":"The+Bistro,La+Jolla,CA+92093",
+  "Muir College, located below Pines":"Roots,9500+Gilman+Dr,La+Jolla,CA+92093",
+  "Thurgood Marshall Activity Center":"Goody's+Place+and+Market,+La+Jolla,CA+92037",
+  "See map for location of service":"32.8781071,-117.2334346"
 }
 
 # Define output file which will contain JSON & temporary JSON object
@@ -60,7 +56,7 @@ obj = []
 # Read source code line by line
 for line in html:
   dailyspecials_exists = re.search(dailyspecials_regex, line)
-  fullmenu_exists = re.search(fullmenu_regex, line)
+  specialmenu_exists = re.search(specialmenu_regex, line)
   meal_exists = re.search(meal_regex, line)
   cost_exists = re.search(cost_regex, line)
   restaurant_exists = re.search(restaurant_regex, line)
@@ -72,7 +68,7 @@ for line in html:
   if dailyspecials_exists:
     dailyspecials_flag = 1
   if dailyspecials_flag:
-    if fullmenu_exists:
+    if specialmenu_exists:
       dailyspecials_flag = 0
   else:
     if restaurant_exists:
