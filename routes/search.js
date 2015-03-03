@@ -26,7 +26,14 @@ router.get('/results', function(req, res) {
     .exec(display);
 
   function display(err, meals) {
-    res.render('results', { title: "grubbery", 'meals': meals, user: req.user });
+    var randomNumber = Math.random();
+
+    if(randomNumber > 0.5) {
+      res.render('results', { title: "grubbery", 'meals': meals, user: req.user });  
+    }
+    else {
+      res.render('results_alt', { title: "grubbery", 'meals': meals, user: req.user });  
+    }
   }
 });
 
