@@ -16933,5 +16933,113 @@
       "ingredients": "Potato Fries, Cheddar Cheese Sauce, Hot Salsa (Tomatoes, Crushed Tomatoes, Water, Onions, Garlic, Red Pepper, Salt, Ground Cumin, Cilantro), Red Bell Pepper, Green Bell Pepper, Onions, Veggie Patty, Sour Cream, Guacamole (Avocado, Hot Salsa (Tomatoes, Crushed Tomatoes, Water, Onions, Garlic, Red Pepper, Salt, Ground Cumin, Cilantro), Onions, Lemon Juice, Cilantro, Black Pepper, Salt), Soy Shortening"
     }, 
     "location": "Sixth College"
+  },
+  {
+    "waitTime": 10, 
+    "restrictions": [
+      "Vegetarian", 
+      "Pescetarian",
+      "Vegan"
+    ], 
+    "googleAddress": "Price+Center,La+Jolla,CA+92037", 
+    "cost": "4.25", 
+    "name": "Pesto Caprese", 
+    "goals": [
+      "Gain Lean Muscle",
+      "Maintain Weight",
+      "Lose Weight"
+    ], 
+    "restaurant": "D'lush", 
+    "description": "After you try our Pesto Caprese, we know you will be extremely satisfied!", 
+    "nutrition": {
+      "information": {
+        "Sodium": "1624.3mg", 
+        "Cholesterol": "44.3mg", 
+        "Calories": "588", 
+        "Saturated Fat": "10.6gram", 
+        "Total Fat": "28.3gram", 
+        "Dietary Fiber": "9.4gram", 
+        "Total Carbohydrates": "65.8gram", 
+        "Calories from Fat": "255", 
+        "Sugars": "9.7gram", 
+        "Serving Size": "1 EACH", 
+        "Trans Fat": "0gram", 
+        "Protein": "18.9gram"
+      }, 
+      "ingredients": "Pesto, mozzarella cheese, tomatoes, and basil"
+    }, 
+    "location": "Price Center"
+  },
+  {
+    "waitTime": 5, 
+    "restrictions": [
+      "Vegetarian", 
+      "Pescetarian",
+      "Vegan"
+    ], 
+    "googleAddress": "Price+Center,La+Jolla,CA+92037", 
+    "cost": "4.25", 
+    "name": "Grilled Cheese", 
+    "goals": [
+      "Gain Lean Muscle",
+      "Maintain Weight",
+      "Lose Weight"
+    ], 
+    "restaurant": "D'lush", 
+    "description": "After you try our Grilled Cheese, we know you will be extremely satisfied!", 
+    "nutrition": {
+      "information": {
+        "Sodium": "9.3mg", 
+        "Cholesterol": "0mg", 
+        "Calories": "115", 
+        "Saturated Fat": "0.1gram", 
+        "Total Fat": "0.4gram", 
+        "Dietary Fiber": "3.4gram", 
+        "Total Carbohydrates": "29.5gram", 
+        "Calories from Fat": "4", 
+        "Sugars": "15.8gram", 
+        "Serving Size": "1 EACH", 
+        "Trans Fat": "0gram", 
+        "Protein": "1.4gram"
+      }, 
+      "ingredients": "White cheddar, mozzarella cheese and bleu cheese blend, sriracha ranch"
+    }, 
+    "location": "Price Center"
+  },
+  {
+    "waitTime": 10, 
+    "restrictions": [
+      "Vegetarian", 
+      "Pescetarian",
+      "Vegan"
+    ], 
+    "googleAddress": "Price+Center,La+Jolla,CA+92037", 
+    "cost": "6.65", 
+    "name": "Chicken Pesto", 
+    "goals": [
+      "Gain Lean Muscle",
+      "Maintain Weight",
+      "Gain Weight"
+    ], 
+    "restaurant": "D'lush", 
+    "description": "After you try our Chicken Pesto, we know you will be extremely satisfied!", 
+    "nutrition": {
+      "information": {
+        "Sodium": "1743.5mg", 
+        "Cholesterol": "191.9mg", 
+        "Calories": "812", 
+        "Saturated Fat": "12.4gram", 
+        "Total Fat": "53.2gram", 
+        "Dietary Fiber": "5gram", 
+        "Total Carbohydrates": "46.1gram", 
+        "Calories from Fat": "480", 
+        "Sugars": "2.9gram", 
+        "Serving Size": "1 EACH", 
+        "Trans Fat": "0.2gram", 
+        "Protein": "38.7gram"
+      }, 
+      "ingredients": "Chicken breast, pesto, mozzarella cheese, tomatoes, basil"
+    }, 
+    "location": "Price Center"
   }
 ]
