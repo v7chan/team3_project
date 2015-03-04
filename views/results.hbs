@@ -22,7 +22,7 @@
       </div>
     </div>
   </div>
-  <p id="back-text">Nothing tasty?<a class="a-back-link-click" id="back-link"> Refine your search!</a></p>
+  <p id="back-text">Nothing tasty?<a href="#" class="a-back-link-click" id="back-link"> Refine your search!</a></p>
 
   <div id="results">
     <ul class="list-group">
@@ -39,10 +39,12 @@
     </center>
   </div>
   {{/if}}
-
 </div>
 
 {{#section 'bodyscripts'}}
 <script src="../javascripts/results.js"></script>
 <script src="../javascripts/woopra_ab_test.js"></script>
+<script>
+  woopra.track("saw_page_a");
+</script>
 {{/section}}
