@@ -16,16 +16,17 @@
     ]
   },
   {
-    "name": "Time to Eat",
+    "name": "Available Time to Eat",
     "icon": "glyphicon-time",
     "placeholder": "5 minutes",
     "id": "select-time",
     "options": [
       "5 minutes",
       "10 minutes",
-      "15 minutes",
+      "20 minutes",
       "30 minutes",
-      "Unlimited"
+      "45 minutes",
+      "1 hour or more"
     ]
   },
   {
