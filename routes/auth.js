@@ -2,6 +2,7 @@ var express = require('express');
 var router = express.Router();
 var fields = require('../helpers/search_fields.json');
 var models = require('../models');
+var md5 = require('../helpers/md5');
 
 var isAuthenticated = function (req, res, next) {
   // if user is authenticated in the session, call the next() to call the next request handler 
@@ -49,8 +50,10 @@ module.exports = function(passport) {
       .find({'name': 'grubbery Special Sandwich'})
       .exec(display);
 
+    var hashedEmail = md5(req.user.username.toLowerCase());
+
     function display(err, meals) {
-      res.render('profile', { title: "grubbery", 'meals': meals, 'fields': preferences, message: req.flash('success'), user: req.user });
+      res.render('profile', { title: "grubbery", 'meals': meals, 'fields': preferences, message: req.flash('success'), user: req.user, hashedEmail: hashedEmail });
     }
   });
 
