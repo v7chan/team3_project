@@ -1,7 +1,7 @@
 {{#section 'head'}}
 <link rel='stylesheet' href='/stylesheets/map.css' />
 {{/section}}
-
+<!--
 <div class="container-fluid" id="main">
 	<div class="row">
 		<div class="col-xs-12">
@@ -20,4 +20,24 @@
 			<iframe class="embed-responsive-item" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyC-Pgdg3xsXcTKVJmSPtPQuxqsWNEsehTo&q={{meal.googleAddress}}" frameborder="0" style="border:0"></iframe>
 		</div>
 	</div>
+</div> -->
+
+<div class="container-fluid" id="main">
+	<div class="row">
+		<div class="col-xs-12">
+			<button class="btn btn-primary col-xs-12" id="back-button" onclick="goBack()">
+				Return to Results
+			</button>
+		</div>
+	</div>
+	
+		<div class="map-location">
+			<h2 class="restaurant">{{meal.restaurant}}</h2>
+			<h4 class="college">in {{meal.location}}</h4>
+	
+
+	</div>
 </div>
+	<div class="map-scale embed-responsive embed-responsive-4by3">
+			<iframe class="embed-responsive-item" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyC-Pgdg3xsXcTKVJmSPtPQuxqsWNEsehTo&q={{meal.googleAddress}}" frameborder="0" style="border:0"></iframe>
+		</div>
