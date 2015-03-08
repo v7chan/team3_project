@@ -9,4 +9,4 @@ function listenForOptionEvents() {
     $($(this)).closest('.collapse').prev().find('.current-selection').attr('placeholder', selected);
     $($(this)).closest('.collapse').collapse('hide');
   });
-}
+}  
