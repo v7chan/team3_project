@@ -10,9 +10,8 @@ function listenForSubmit() {
     postJSON['username'] = $('#email-input').val();
     postJSON['password'] = $('#password-input').val();
     postJSON['password_confirmation'] = $('#password-confirmation-input').val();
-    postJSON['goal'] = $('#select-goal-current').attr('placeholder');
-    postJSON['restriction'] = $('#select-restrictions-current').attr('placeholder');
-
+    postJSON['goal'] = $('#select-goal-current').val();
+    postJSON['restriction'] = $('#select-restrictions-current').val();
 
     if(!postJSON['username']) {
       $('#email-input').addClass('input-error');
