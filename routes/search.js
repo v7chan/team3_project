@@ -9,7 +9,7 @@ router.get('/results', function(req, res) {
   var restrictions = req.param('restrictions');
   var filterJSON = {'location': location};
 
-  if(time != 'Unlimited') {
+  if(time != '1') {
     filterJSON['waitTime'] = {$lte: time};
   }
 
