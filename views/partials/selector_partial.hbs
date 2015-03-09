@@ -29,8 +29,9 @@
 			<div class="input-group">
 				<span class="input-group-addon" id="basic-addon1"><span class="glyphicon {{icon}}" aria-hidden="true"></span></span>
 				{{#equal name "Current Location"}}
+
 					<form>
-						<select class="form-control">
+						<select class="form-control" id="{{id}}-current">
 							{{#each options}}
 						 		<option> {{this}}</option>
 							{{/each}}
@@ -39,7 +40,7 @@
 				{{/equal}}
 				{{#equal name "Available Time to Eat"}}
 					<form>
-						<select class="form-control">
+						<select class="form-control" id="{{id}}-current">
 							{{#each options}}
 						   		<option> {{this}}</option>
 							{{/each}}
@@ -49,7 +50,7 @@
 				{{#equal name "Dietary Goal"}}
 					{{#if parent.user}}
 						<form>
-						<select class="form-control">					
+						<select class="form-control" id="{{id}}-current">					
 						    <!-- {{#each options}}
 						    	{{#equal parent.user.goal this}}
 						    		<option selected="selected"> {{parent.user.goal}}</option>	
@@ -88,7 +89,7 @@
 					</form> 
 					{{else}}
 						<form>
-							<select class="form-control">
+							<select class="form-control" id="{{id}}-current">
 							{{#each options}}
 								<option> {{this}}</option>
 							{{/each}}
@@ -99,7 +100,7 @@
 				{{#equal name "Dietary Restrictions"}}
 					{{#if parent.user}}
 						<form>
-							<select class="form-control">
+							<select class="form-control" id="{{id}}-current">
 								<!-- {{#each options}}
 									{{#equal parent.user.goal this}}
 										<option selected="selected"> {{parent.user.goal}}</option>
@@ -136,7 +137,7 @@
 						</form> 
 					{{else}}
 						<form>
-							<select class="form-control">
+							<select class="form-control" id="{{id}}-current">
 							    {{#each options}}
 							   		<option> {{this}}</option>
 							    {{/each}}
