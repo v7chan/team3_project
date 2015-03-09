@@ -102,34 +102,34 @@
 						<form>
 							<select class="form-control" id="{{id}}-current">
 								<!-- {{#each options}}
-									{{#equal parent.user.goal this}}
-										<option selected="selected"> {{parent.user.goal}}</option>
+									{{#equal parent.user.restriction this}}
+										<option selected="selected"> {{parent.user.restriction}}</option>
 									{{else}}
 										<option> {{this}}</option>
 									{{/equal}}						    	
 							    {{/each}} -->
-							    {{#equal parent.user.goal "Vegetarian"}}
-							  	<option selected="selected"> {{parent.user.goal}}</option>	
+							    {{#equal parent.user.restriction "Vegetarian"}}
+							  	<option selected="selected"> {{parent.user.restriction}}</option>	
 								{{else}}
 								   	<option>Vegetarian</option>	
 								{{/equal}}
-								{{#equal parent.user.goal "Vegan"}}
-								  	<option selected="selected"> {{parent.user.goal}}</option>	
+								{{#equal parent.user.restriction "Vegan"}}
+								  	<option selected="selected"> {{parent.user.restriction}}</option>	
 								{{else}}
 								  	<option>Vegan</option>	
 								{{/equal}}
-								{{#equal parent.user.goal "Pescetarian"}}
-								   	<option selected="selected"> {{parent.user.goal}}</option>	
+								{{#equal parent.user.restriction "Pescetarian"}}
+								   	<option selected="selected"> {{parent.user.restriction}}</option>	
 								{{else}}
 								   	<option>Pescetarian</option>	
 								{{/equal}}
-								{{#equal parent.user.goal "Gluten Free"}}
-								   	<option selected="selected"> {{parent.user.goal}}</option>	
+								{{#equal parent.user.restriction "Gluten Free"}}
+								   	<option selected="selected"> {{parent.user.restriction}}</option>	
 								{{else}}
 								   	<option>Gluten Free</option>	
 								{{/equal}}
-								{{#equal parent.user.goal "None"}}
-								   	<option selected="selected"> {{parent.user.goal}}</option>	
+								{{#equal parent.user.restriction "None"}}
+								   	<option selected="selected"> {{parent.user.restriction}}</option>	
 								{{else}}
 								   	<option>None</option>	
 								{{/equal}}

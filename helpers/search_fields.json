@@ -48,11 +48,11 @@
     "placeholder": "None",
     "id": "select-restrictions",
     "options": [
+      "None",
       "Vegetarian",
       "Vegan",
       "Pescetarian",
-      "Gluten Free",
-      "None"
+      "Gluten Free"
     ]
   }
 ]
