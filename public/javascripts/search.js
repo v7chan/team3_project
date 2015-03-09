@@ -6,10 +6,6 @@ $(document).ready(function() {
 function listenForSearch() {
   $('#search-food').click(function(e) {
     e.preventDefault();
-  /*  var location     = $('#select-locations-current').attr('placeholder');
-    var time         = $('#select-time-current').attr('placeholder').split(" ")[0];
-    var goal         = $('#select-goal-current').attr('placeholder');
-    var restrictions = $('#select-restrictions-current').attr('placeholder'); */
     var location     = $('#select-locations-current').val();
     var time         = $('#select-time-current').val().split(" ")[0];
     var goal         = $('#select-goal-current').val();
