@@ -25,15 +25,18 @@ router.get('/results', function(req, res) {
     .find(filterJSON)
     .exec(display);
 
-  function display(err, meals) {
-    var randomNumber = Math.random();
+  // function display(err, meals) {
+  //   var randomNumber = Math.random();
 
-    if(randomNumber > 0.5) {
-      res.render('results', { title: "grubbery", 'meals': meals, user: req.user });  
-    }
-    else {
-      res.render('results_alt', { title: "grubbery", 'meals': meals, user: req.user });  
-    }
+  //   if(randomNumber > 0.5) {
+  //     res.render('results', { title: "grubbery", 'meals': meals, user: req.user });  
+  //   }
+  //   else {
+  //     res.render('results_alt', { title: "grubbery", 'meals': meals, user: req.user });  
+  //   }
+  // }
+  function display(err, meals) {
+    res.render('results', { title: "grubbery", 'meals': meals, user: req.user });  
   }
 });
 
